@@ -1,0 +1,45 @@
+{
+  "quickPlayData" : {
+    "2535453947734388" : 
+    [
+      {
+        "epochLastPlayedTimeMs" : 1749570689908,
+        "id" : "forge",
+        "javaInstance" : {
+          "configId" : "forge"
+        },
+        "source" : "Java"
+      },
+      {
+        "epochLastPlayedTimeMs" : 1749564473700,
+        "id" : "13edd05c628e74e0dc93963aa9a4725e",
+        "javaInstance" : {
+          "configId" : "13edd05c628e74e0dc93963aa9a4725e"
+        },
+        "source" : "Java"
+      },
+      {
+        "epochLastPlayedTimeMs" : 1749045170000,
+        "id" : "thirteenbit.com:3113",
+        "javaInstance" : {
+          "configId" : "29ec254edb33543552e29a8cef18c23c",
+          "game" : {
+            "gamemode" : "creative",
+            "type" : "multiplayer"
+          }
+        },
+        "name" : "KudosCraft",
+        "source" : "Java"
+      },
+      {
+        "epochLastPlayedTimeMs" : 1749044456159,
+        "id" : "29ec254edb33543552e29a8cef18c23c",
+        "javaInstance" : {
+          "configId" : "29ec254edb33543552e29a8cef18c23c"
+        },
+        "source" : "Java"
+      }
+    ]
+  },
+  "version" : 2
+}

@@ -1,0 +1,13 @@
+{
+  "channel" : "release",
+  "customChannels" : [],
+  "deviceId" : 18073681861668245135,
+  "formatVersion" : 0,
+  "locale" : "zh-CN",
+  "productLibraryDir" : "C:\\Users\\WINDOWS\\AppData\\Local\\Mojang\\products",
+  "quickPlayEnabled" : true,
+  "shutDownTimestampGamecore" : 1749574955957,
+  "useArm64JreIfSupported" : false,
+  "useMagnifiedMode" : false,
+  "version" : 15
+}
