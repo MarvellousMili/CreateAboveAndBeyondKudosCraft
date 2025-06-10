@@ -6,6 +6,8 @@
 #73D2B3 minecraft:birch_planks
 #0306AC minecraft:birch_stairs
 #45C81B minecraft:blue_orchid
+#1BDBFB minecraft:brick_stairs
+#03DC45 minecraft:bricks
 #3AE802 minecraft:brown_mushroom_block
 #AB02C1 forbidden_arcanus:cherrywood_fence
 #9FE77E forbidden_arcanus:cherrywood_leaves
@@ -14,6 +16,8 @@
 #7FDE54 minecraft:clay
 #058353 minecraft:cobblestone
 #B76D44 create:cogwheel
+#6BB940 create:copper_ore
+#6E5139 tconstruct:copper_ore
 #CC07F6 minecraft:cornflower
 #8C5E34 tconstruct:crafting_station
 #468304 minecraft:crafting_table
@@ -33,6 +37,7 @@
 #2DC94B minecraft:furnace
 #2F436F minecraft:glass
 #060B35 minecraft:granite
+#B0C1DA minecraft:granite_stairs
 #3F84B7 minecraft:grass_block
 #C23901 minecraft:grass_path
 #88BAFA minecraft:gravel
@@ -40,6 +45,7 @@
 #6C55C8 create:large_cogwheel
 #7482E4 minecraft:lilac
 #DFD691 minecraft:lily_pad
+#F100D3 chisel:limestone/raw
 #E638FD create:mechanical_mixer
 #145137 create:mechanical_press
 #F42630 exoticbirds:nest
@@ -49,12 +55,16 @@
 #BBA6D1 minecraft:oak_log
 #E3886A minecraft:oak_planks
 #374FD3 minecraft:oak_slab
+#392E46 minecraft:oak_wood
 #509239 extcaves:oldstone
 #56316C libvulpes:orealuminum
 #F6678E minecraft:oxeye_daisy
 #BB6DCC tconstruct:part_builder
 #B9C232 tconstruct:part_chest
 #AB1C58 minecraft:peony
+#08BE2B minecraft:pink_bed
+#437566 minecraft:polished_granite
+#81AE89 minecraft:polished_granite_stairs
 #AFAC0D minecraft:poppy
 #78AF47 minecraft:red_mushroom_block
 #9C3ECB minecraft:rose_bush
@@ -72,6 +82,7 @@
 #DB2DF2 tconstruct:sky_slime_fluid
 #DB76CE tconstruct:sky_slime_leaves
 #96931C tconstruct:sky_slime_vine
+#13F5AC minecraft:spruce_leaves
 #49DF61 minecraft:spruce_planks
 #D9135A minecraft:spruce_stairs
 #DC3458 minecraft:stone
