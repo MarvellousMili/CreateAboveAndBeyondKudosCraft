@@ -4,6 +4,7 @@
 #3DE8FE minecraft:birch_leaves
 #3BA928 minecraft:birch_log
 #73D2B3 minecraft:birch_planks
+#B7985C minecraft:birch_slab
 #0306AC minecraft:birch_stairs
 #45C81B minecraft:blue_orchid
 #1BDBFB minecraft:brick_stairs
@@ -14,6 +15,7 @@
 #D5D133 forbidden_arcanus:cherrywood_planks
 #F522F4 minecraft:chest
 #7FDE54 minecraft:clay
+#DE242D minecraft:coal_ore
 #058353 minecraft:cobblestone
 #B76D44 create:cogwheel
 #6BB940 create:copper_ore
@@ -23,11 +25,13 @@
 #468304 minecraft:crafting_table
 #B2A2E1 minecraft:dandelion
 #AF03B5 minecraft:dark_oak_fence
+#EF031B minecraft:dark_oak_fence_gate
 #E3DF1E minecraft:dark_oak_leaves
 #A66708 minecraft:dark_oak_log
 #19C8D3 minecraft:dark_oak_planks
 #A4967C minecraft:dark_oak_slab
 #A8FCCC minecraft:dark_oak_stairs
+#987616 minecraft:dark_oak_wall_sign
 #BED665 minecraft:diorite
 #80497A minecraft:dirt
 #77CED9 extcaves:dirtstone
@@ -36,11 +40,13 @@
 #A2D681 forbidden_arcanus:edelwood_log
 #2DC94B minecraft:furnace
 #2F436F minecraft:glass
+#279E3E minecraft:glass_pane
 #060B35 minecraft:granite
 #B0C1DA minecraft:granite_stairs
 #3F84B7 minecraft:grass_block
 #C23901 minecraft:grass_path
 #88BAFA minecraft:gravel
+#897D38 minecraft:green_bed
 #228015 minecraft:ladder
 #6C55C8 create:large_cogwheel
 #7482E4 minecraft:lilac
@@ -55,6 +61,7 @@
 #BBA6D1 minecraft:oak_log
 #E3886A minecraft:oak_planks
 #374FD3 minecraft:oak_slab
+#72BC63 minecraft:oak_stairs
 #392E46 minecraft:oak_wood
 #509239 extcaves:oldstone
 #56316C libvulpes:orealuminum
@@ -88,6 +95,7 @@
 #DC3458 minecraft:stone
 #B21185 minecraft:stone_brick_slab
 #F8955F minecraft:stone_bricks
+#A88E8E minecraft:stripped_oak_wood
 #5CF3F1 minecraft:sugar_cane
 #689A91 tconstruct:tinker_station
 #F6A2B3 tconstruct:tinkers_chest
