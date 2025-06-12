@@ -133,8 +133,8 @@ key_key.curios.open.desc:key.keyboard.g
 key_key.ftbquests.quests:key.keyboard.unknown
 key_key.control:key.keyboard.left.control
 key_key.inventorysorter.itemin:key.mouse.100
-key_key.inventorysorter.itemout:key.mouse.102
 key_key.inventorysorter.sort:key.mouse.middle
+key_key.inventorysorter.itemout:key.mouse.102
 key_key.toggle_focus.desc:key.keyboard.tab
 key_key.cofh.mode_change_increment:key.keyboard.v
 key_key.endergetic.booflo_vest:key.keyboard.space
