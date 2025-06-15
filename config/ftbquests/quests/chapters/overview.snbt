@@ -1,0 +1,551 @@
+{
+	id: "1F9517DCFB1DB297"
+	group: "331B6409EF6A7840"
+	order_index: 0
+	filename: "overview"
+	title: " 概览"
+	icon: "minecraft:oak_sapling"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "&a安山岩&f 机械"
+			disable_toast: true
+			x: -10.0d
+			y: 0.0d
+			shape: "square"
+			subtitle: "里程碑"
+			description: [
+				"有了动力机制的自动化，许多新的可能性展现出来。大多数 Create 的机械现在可以很容易地制造。早期游戏变得不那么早了！"
+				""
+				"你现在可以继续，或选择在第1章的奖励部分花一些时间。毕竟，更强大的铜辅助机械供应将会非常有用！"
+			]
+			dependencies: [
+				"61147823CC87F711"
+				"675C395B2074C24C"
+			]
+			hide_text_until_complete: true
+			id: "0E98B4D2BBF55308"
+			tasks: [
+				{
+					id: "36F8C3CAF6FC3FB2"
+					type: "stat"
+					title: "Complete Chapter 1"
+					icon: "kubejs:kinetic_mechanism"
+					disable_toast: true
+					stat: "minecraft:play_one_minute"
+					value: 1
+				}
+			]
+		}
+		{
+			title: "黄铜机械"
+			disable_toast: true
+			x: -7.0d
+			y: 0.0d
+			subtitle: "里程碑"
+			description: [
+				"有了&a精密构件&f的自动化，大量的优秀工具变得可获得。无论是用于自动化还是提高生活质量。"
+				""
+				"这也为通往&a殷钢&f时代打开了大门-潜在地在快速完成奖励部分后。"
+			]
+			dependencies: [
+				"1E263994D4883A08"
+				"19715EBCBBA1B4AD"
+			]
+			id: "69275ECFC147E15B"
+			tasks: [
+				{
+					id: "0FF38BBE3B19D9C2"
+					type: "stat"
+					title: "Complete Chapter 2"
+					icon: "create:precision_mechanism"
+					disable_toast: true
+					stat: "minecraft:play_one_minute"
+					value: 1
+				}
+			]
+		}
+		{
+			title: "&a殷钢&f 机械"
+			disable_toast: true
+			x: -4.0d
+			y: 0.0d
+			subtitle: "里程碑"
+			description: [
+				"完全不同的科技时代。一些机器突然由几乎看不见的神奇能量提供动力。"
+				""
+				"发射感觉现在非常接近。虽然仍然存在挑战，但由于新的设备，解决方案的印记将再次缩小。"
+			]
+			dependencies: [
+				"780E8AE86250C73D"
+				"6CBA3D97CAD5DB63"
+			]
+			id: "400CDC316DCDFE88"
+			tasks: [
+				{
+					id: "7FEEF6BED2C3F31B"
+					type: "stat"
+					title: "Complete Chapter 3"
+					icon: "kubejs:inductive_mechanism"
+					disable_toast: true
+					stat: "minecraft:play_one_minute"
+					value: 1
+				}
+			]
+		}
+		{
+			title: "Fluix 机械"
+			disable_toast: true
+			x: -1.0d
+			y: 0.0d
+			subtitle: "里程碑"
+			description: [
+				"有了计算机制，&a工厂&f进入了数字时代。即时物质能量转换（ME）彻底改变了物品和液体的物流方式，对于组装线和个人使用都产生了革命性影响。"
+				""
+				"此时，所有必要的工具以便进行太空旅行都已可获得。不妨开始倒计时。"
+			]
+			min_required_dependencies: 3
+			dependencies: [
+				"6824055533465010"
+				"3934AD57122B6FFE"
+				"26173D4777F439B1"
+				"1BF8F3CC8BEBB620"
+			]
+			hide: false
+			id: "08716DBF9C882623"
+			tasks: [
+				{
+					id: "79AB928A6C8E21DA"
+					type: "stat"
+					title: "Complete Chapter 4"
+					icon: "kubejs:calculation_mechanism"
+					disable_toast: true
+					stat: "minecraft:play_one_minute"
+					value: 1
+				}
+			]
+		}
+		{
+			title: "铜机械"
+			disable_toast: true
+			x: -8.0d
+			y: 2.5d
+			subtitle: "实用"
+			description: [
+				"铜机器解锁了液体操纵的能力。为所有自动化需求填充、排放、过滤和收集液体。"
+				""
+				"请注意密封机制是其他材料的成分。主装配线将继续使用动力机制。"
+			]
+			dependencies: [
+				"7D872F933F45809B"
+				"6545C3F427B12106"
+			]
+			id: "342BB6EF80EBFDCA"
+			tasks: [
+				{
+					id: "27B07858A6018539"
+					type: "stat"
+					title: "Complete Bonus 1A"
+					icon: "kubejs:sealed_mechanism"
+					disable_toast: true
+					stat: "minecraft:play_one_minute"
+					value: 1
+				}
+			]
+		}
+		{
+			title: "锌机械"
+			disable_toast: true
+			x: -5.0d
+			y: -2.5d
+			subtitle: "实用"
+			description: [
+				"锌机器非常强大。从高效的鹅卵石&a收割机&f到远程&a物品收集器&f，一个有用的新套装设备现在已经准备就绪。"
+				""
+				"请注意，&a炼狱&f机制是其他材料的成分。主装配线将继续使用&a精密构件&f。"
+			]
+			dependencies: [
+				"7888F9129E9FE517"
+				"3C50B4556375178E"
+			]
+			id: "2DC3AA8A89005C42"
+			tasks: [
+				{
+					id: "12CFC84D3F01F49F"
+					type: "stat"
+					title: "Complete Bonus 2A"
+					icon: "kubejs:infernal_mechanism"
+					disable_toast: true
+					stat: "minecraft:play_one_minute"
+					value: 1
+				}
+			]
+		}
+		{
+			title: "终界机械"
+			disable_toast: true
+			x: -2.0d
+			y: 2.5d
+			subtitle: "实用"
+			description: ["终界机器不仅提供了即时传送的访问权限，还为您的机器提供了最强大的升级。"]
+			dependencies: [
+				"2BB2C7B95E3C89AE"
+				"6DBEF7A11890ADF8"
+			]
+			id: "2F50046724A0DF9C"
+			tasks: [
+				{
+					id: "4BC5C43C7B23CA16"
+					type: "stat"
+					title: "Complete Bonus 3A"
+					icon: "kubejs:abstruse_mechanism"
+					disable_toast: true
+					stat: "minecraft:play_one_minute"
+					value: 1
+				}
+			]
+		}
+		{
+			title: "从树木砍手开始..."
+			icon: "minecraft:grass_block"
+			x: -13.5d
+			y: 0.0d
+			shape: "hexagon"
+			description: ["欢迎来到概览。您可以随时在这里回来，了解自己在科技进步中的当前位置。如果您仔细观察，您的登月之旅将完成右侧的最后一步。"]
+			size: 2.0d
+			id: "75FB28B253B14876"
+			tasks: [
+				{
+					id: "7F88BABEC9889C76"
+					type: "item"
+					title: "Any Logs"
+					icon: "minecraft:oak_log"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "619E1006A9C31AE1"
+					type: "item"
+					item: "farmersdelight:apple_cider"
+				}
+			]
+		}
+		{
+			title: "...到太空旅行者"
+			icon: "advancedrocketry:moonturf"
+			x: 2.5d
+			y: 0.0d
+			shape: "hexagon"
+			description: [
+				"在月球表面漫步的梦想终于实现了。"
+				""
+				"随着这一点，&a工厂&f指南的角色已得到满足。享受着打造新的高科技帝国的乐趣，我们会在下一个模组包中见面！"
+			]
+			dependencies: [
+				"5E62059675895213"
+				"47965C310D9847DC"
+			]
+			size: 2.0d
+			id: "4F7A70041B67A348"
+			tasks: [
+				{
+					id: "058AEB3EF218C7D2"
+					type: "stat"
+					title: "Complete Chapter 5"
+					icon: "advancedrocketry:guidancecomputer"
+					disable_toast: true
+					stat: "minecraft:play_one_minute"
+					value: 1
+				}
+				{
+					id: "68543E92A6B517DC"
+					type: "item"
+					item: "advancedrocketry:moonturf"
+					consume_items: false
+				}
+			]
+		}
+		{
+			title: "远大志向"
+			icon: "create:andesite_alloy"
+			x: -11.5d
+			y: 0.0d
+			shape: "circle"
+			subtitle: "第一章"
+			description: [
+				"最早的发明表现了人们在低级设备上的足智多谋: 自动制作？没有。过滤？太贵了！物品运输？愿带着传送带意面在你身边编织祝福。"
+				""
+				"点击上面的核对标记后，&a工厂&f指南的第一章将从任务侧栏中变得可访问。"
+			]
+			dependencies: ["75FB28B253B14876"]
+			id: "61147823CC87F711"
+			tasks: [
+				{
+					id: "5A8DF2D8553904BF"
+					type: "checkmark"
+					title: "Unlock Chapter 1"
+				}
+			]
+		}
+		{
+			title: "诱人便利"
+			icon: "create:electron_tube"
+			x: -8.5d
+			y: 0.0d
+			shape: "circle"
+			subtitle: "第二章"
+			description: [
+				"鸡生蛋的问题仍然存在: 为了更方便地自动精密机械的制造，拥有更多的黄铜设备会非常有用！"
+				""
+				"点击上面的核对标记后，&a工厂&f指南的第二章将从任务侧栏中变得可访问。"
+			]
+			dependencies: ["0E98B4D2BBF55308"]
+			id: "1E263994D4883A08"
+			tasks: [
+				{
+					id: "28C41C062843C2CA"
+					type: "checkmark"
+					title: "Unlock Chapter 2"
+				}
+			]
+		}
+		{
+			title: "宣泄"
+			icon: "kubejs:radiant_coil"
+			x: -5.5d
+			y: 0.0d
+			shape: "circle"
+			subtitle: "第三章"
+			description: [
+				"迄今为止已经奠定了基础。从现在开始速度应该真的会加快。"
+				""
+				"为感应技术生产零部件依赖于非常独特的技术。虽然已经准备好了所有新设备，自动化甚至更加复杂的交互应该变得轻而易举。"
+				""
+				"点击上面的复选标记后，&a工厂&f指南的第三章将可以从任务侧边栏中访问。"
+			]
+			dependencies: ["69275ECFC147E15B"]
+			id: "780E8AE86250C73D"
+			tasks: [
+				{
+					id: "2F6FEDBB1BDCB36C"
+					type: "checkmark"
+					title: "Unlock Chapter 3"
+				}
+			]
+		}
+		{
+			title: "搬箱子"
+			icon: "kubejs:silicon_compound"
+			x: -2.5d
+			y: 0.0d
+			shape: "circle"
+			subtitle: "第四章"
+			description: [
+				"新的能源单位加入了队伍：硅生产设施将涉及热感应机械和熟悉的动力组件的相互作用。"
+				""
+				"在通量和应力之间，激光技术中的一项特殊创新将需要生产一些所涉及的成分。"
+				""
+				"点击上面的复选标记后，&a工厂&f指南的第四章将可以从任务侧边栏中访问。"
+			]
+			dependencies: ["400CDC316DCDFE88"]
+			id: "26173D4777F439B1"
+			tasks: [
+				{
+					id: "74CFD83C501C4952"
+					type: "checkmark"
+					title: "Unlock Chapter 4"
+				}
+			]
+		}
+		{
+			title: "数字分割"
+			icon: "kubejs:divide"
+			x: 0.5d
+			y: 0.0d
+			shape: "circle"
+			subtitle: "结局"
+			description: [
+				"整个工厂重新启动，进行最后的冲刺。有了稳定的计算机构件供应，数字基础设施执行必要的操作，以组合出一个理想的轨迹。"
+				""
+				"在这个数据中心明显地进行数字计算的时候，指定的宇航员开始准备自己和飞船准备发射。"
+			]
+			dependencies: ["08716DBF9C882623"]
+			id: "5E62059675895213"
+			tasks: [
+				{
+					id: "251A91F6C21AEAFB"
+					type: "checkmark"
+					title: "Unlock the Final Chapter"
+				}
+			]
+		}
+		{
+			title: "橡胶大亨"
+			icon: "thermal:cured_rubber"
+			x: -9.5d
+			y: 1.5d
+			shape: "circle"
+			subtitle: "奖励1A"
+			description: [
+				""
+				"虽然以后肯定需要铜机器；他们的成分的全自动化是完全可选的。"
+				""
+				"点击上面的复选标记后，位于第一章的额外任务将被揭示。"
+			]
+			dependencies: ["0E98B4D2BBF55308"]
+			id: "7D872F933F45809B"
+			tasks: [
+				{
+					id: "681DACF11F193771"
+					type: "checkmark"
+					title: "Unlock Bonus 1A"
+				}
+			]
+		}
+		{
+			title: "岩浆开采"
+			icon: "minecraft:lava_bucket"
+			x: -6.5d
+			y: -1.5d
+			shape: "circle"
+			subtitle: "奖励2A"
+			description: [
+				"我们需要深入！"
+				"获得锌机器将需要在另一个维度进行一些工程。即使它实际上是地狱，换个场景总是会带来新的想法和灵感。"
+				""
+				"点击上面的复选标记后，位于第二章的额外任务将被揭示。"
+			]
+			dependencies: ["69275ECFC147E15B"]
+			id: "7888F9129E9FE517"
+			tasks: [
+				{
+					id: "21753CBB528EAADF"
+					type: "checkmark"
+					title: "Unlock Bonus 2A"
+				}
+			]
+		}
+		{
+			title: "融资"
+			icon: "thermal:enderium_ingot"
+			x: -3.5d
+			y: 1.5d
+			shape: "circle"
+			subtitle: "奖励3A"
+			description: [
+				"单单是传送的前景可能就足以探索那神秘的末地维度。"
+				"在研究所需的技术时，你会发现你辛苦挣来的银突然找到了第二个用途.."
+				""
+				"点击上面的复选标记后，位于第三章的额外任务将被揭示。"
+			]
+			dependencies: ["400CDC316DCDFE88"]
+			id: "2BB2C7B95E3C89AE"
+			tasks: [
+				{
+					id: "722CA19434E722FB"
+					type: "checkmark"
+					title: "Unlock Bonus 3A"
+				}
+			]
+		}
+		{
+			title: "混沌炼金术"
+			icon: "kubejs:substrate_chaos"
+			x: -2.5d
+			y: -1.25d
+			shape: "circle"
+			subtitle: "替代路线"
+			description: [
+				"你会发现新发现的激光设置还有其他有趣的功能。"
+				""
+				"在一些科学和实验背后，隐藏着一种方式来在另一个材料之间转换看似无关的材料。要求的&a液态硅&f元素就是其中之一，不过它的对应物是什么？"
+				""
+				"点击上面的复选标记后，&a工厂&f指南的替代第四章将可以从任务侧边栏中访问。仍然可以返回到其他章节。"
+			]
+			dependencies: ["400CDC316DCDFE88"]
+			id: "3934AD57122B6FFE"
+			tasks: [
+				{
+					id: "5DF206B1738D08A0"
+					type: "checkmark"
+					title: "Unlock Chapter 4a"
+				}
+			]
+		}
+		{
+			title: "准备工作"
+			icon: "minecraft:cobblestone_stairs"
+			x: -12.5d
+			y: -1.5d
+			shape: "circle"
+			description: [
+				"小心！在准备自动化之旅之前，先建立一个基本的车间可能会有所帮助。"
+				""
+				"以下是一些成功开始的建议。"
+			]
+			dependencies: ["75FB28B253B14876"]
+			id: "7D6BC99CCCB29924"
+			tasks: [
+				{
+					id: "57A71A62204AE230"
+					type: "item"
+					item: "create:mechanical_press"
+					consume_items: false
+				}
+				{
+					id: "0EEFF99A7BD064E4"
+					type: "item"
+					item: "create:mechanical_saw"
+					consume_items: false
+				}
+				{
+					id: "4A5B209B42D89DFF"
+					type: "item"
+					item: "create:encased_fan"
+					consume_items: false
+				}
+				{
+					id: "32214700E91A67D3"
+					type: "item"
+					item: "create:wrench"
+					consume_items: false
+				}
+				{
+					id: "6530AB7AA277197D"
+					type: "item"
+					item: "create:mechanical_mixer"
+					consume_items: false
+				}
+				{
+					id: "1900BA945C62D0CC"
+					type: "item"
+					item: "tconstruct:seared_melter"
+					consume_items: false
+				}
+				{
+					id: "534BB31978C1E95B"
+					type: "item"
+					item: "create:millstone"
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "24DFC6E24F62D97A"
+					type: "item"
+					item: "create:crafting_blueprint"
+					count: 3
+				}
+			]
+		}
+	]
+}

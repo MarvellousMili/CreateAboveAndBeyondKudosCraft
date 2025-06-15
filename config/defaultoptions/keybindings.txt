@@ -49,31 +49,28 @@ key_key.rocket.desc:key.mouse.left:NONE
 key_key.slide.desc:key.keyboard.left.shift:NONE
 key_placebo.toggleWings:key.keyboard.keypad.8:NONE
 key_placebo.toggleTrails:key.keyboard.keypad.9:NONE
-key_Piston Pushcart Up:key.keyboard.space:NONE
-key_Piston Pushcart Down:key.keyboard.left.control:NONE
 key_Start composing:key.keyboard.g:NONE
 key_Tool Menu (Hold):key.keyboard.left.alt:NONE
+key_Piston Pushcart Up:key.keyboard.space:NONE
+key_Piston Pushcart Down:key.keyboard.left.control:NONE
+key_key.waila.config:key.keyboard.keypad.0:NONE
+key_key.waila.show_overlay:key.keyboard.keypad.1:NONE
+key_key.waila.toggle_liquid:key.keyboard.keypad.2:NONE
 key_key.corpse.death_history:key.keyboard.u:NONE
 key_Open the Crash Utilities Screen:key.keyboard.u:CONTROL
 key_Copy Container Class:key.keyboard.unknown:NONE
 key_Show Slot Index Tooltips:key.keyboard.unknown:NONE
-key_iris.keybind.reload:key.keyboard.r:NONE
-key_iris.keybind.toggleShaders:key.keyboard.k:NONE
-key_iris.keybind.shaderPackSelection:key.keyboard.o:NONE
 key_Options Gui:key.keyboard.i:NONE
 key_key.curios.open.desc:key.keyboard.g:NONE
 key_key.ftbquests.quests:key.keyboard.unknown:NONE
 key_key.control:key.keyboard.left.control:NONE
-key_key.inventorysorter.itemout:key.mouse.102:NONE
-key_key.inventorysorter.sort:key.mouse.middle:NONE
 key_key.inventorysorter.itemin:key.mouse.100:NONE
+key_key.inventorysorter.sort:key.mouse.middle:NONE
+key_key.inventorysorter.itemout:key.mouse.102:NONE
 key_key.toggle_focus.desc:key.keyboard.tab:NONE
 key_key.cofh.mode_change_increment:key.keyboard.v:NONE
 key_key.endergetic.booflo_vest:key.keyboard.space:NONE
 key_key.endergetic.booflo_slam:key.keyboard.x:NONE
-key_key.waila.config:key.keyboard.keypad.0:NONE
-key_key.waila.show_overlay:key.keyboard.keypad.1:NONE
-key_key.waila.toggle_liquid:key.keyboard.keypad.2:NONE
 key_key.exchangers.open_gui:key.keyboard.comma:NONE
 key_key.exchangers.range_switch:key.keyboard.unknown:NONE
 key_key.exchangers.mode_switch:key.keyboard.unknown:NONE
@@ -81,7 +78,6 @@ key_key.exchangers.force_drop_items_mode_toggle:key.keyboard.unknown:NONE
 key_key.exchangers.directional_placement_mode_toggle:key.keyboard.unknown:NONE
 key_key.exchangers.fuzzy_placement_mode_toggle:key.keyboard.unknown:NONE
 key_key.exchangers.void_items_mode_toggle:key.keyboard.unknown:NONE
-key_key.tconstruct.helmet_interact:key.keyboard.z:NONE
 key_cos.key.opencosarmorinventory:key.keyboard.unknown:NONE
 key_mod.chiselsandbits.keys.key.modded-tool.open:key.keyboard.r:NONE
 key_mod.chiselsandbits.keys.key.modded-tool.cycle.left:key.keyboard.unknown:NONE
@@ -122,9 +118,6 @@ key_key.occultism.familiar.guardian_familiar:key.keyboard.unknown:NONE
 key_key.occultism.familiar.headless_familiar:key.keyboard.unknown:NONE
 key_key.occultism.familiar.chimera_familiar:key.keyboard.unknown:NONE
 key_key.occultism.familiar.goat_familiar:key.keyboard.unknown:NONE
-key_key.occultism.familiar.shub_niggurath_familiar:key.keyboard.unknown:NONE
-key_key.occultism.familiar.beholder_familiar:key.keyboard.unknown:NONE
-key_key.configured.open_mod_list:key.keyboard.unknown:NONE
 key_key.togglejetpack:key.keyboard.x:NONE
 key_key.openrocketui:key.keyboard.c:NONE
 key_key.togglercs:key.keyboard.r:NONE
@@ -145,5 +138,3 @@ key_key.jei.previousCategory:key.keyboard.page.up:SHIFT
 key_key.jei.nextCategory:key.keyboard.page.down:SHIFT
 key_key.jei.bookmark:key.keyboard.a:NONE
 key_key.jei.toggleBookmarkOverlay:key.keyboard.unknown:NONE
-key_key.waila.show_recipes:key.keyboard.keypad.3:NONE
-key_key.waila.show_uses:key.keyboard.keypad.4:NONE

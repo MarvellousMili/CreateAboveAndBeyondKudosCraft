@@ -1,0 +1,870 @@
+{
+	id: "2FDA7DFC0C684E58"
+	group: "331B6409EF6A7840"
+	order_index: 4
+	filename: "stage_4"
+	title: "&f4&r 进入盒中"
+	icon: "chisel:futura/controller_purple"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "第四章开始！"
+			icon: "kubejs:inductive_mechanism"
+			x: 1.0d
+			y: -2.5d
+			shape: "hexagon"
+			description: [
+				"下一个目标将是&a硅板&f。作为两种已知的获得方式之一，装配线将在新的相当紧凑的&a殷钢&f机械中移动物品、流体和能量。"
+				""
+				"与之前章节类似，首先需要一些新的物质来源或运输。"
+			]
+			dependencies: ["74CFD83C501C4952"]
+			hide: true
+			size: 2.0d
+			id: "4B80A801A5BE4A01"
+			tasks: [
+				{
+					id: "0C162B64EE377FC8"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "01697377D270DD3C"
+					type: "item"
+					item: "create:builders_tea"
+				}
+			]
+		}
+		{
+			title: "准备部署"
+			icon: "kubejs:calculation_mechanism"
+			x: 1.0d
+			y: 7.5d
+			subtitle: "构想40-2"
+			description: ["最后一次，一排&a机械手&f将需要升级先前的机制到下一个阶层。"]
+			dependencies: [
+				"1BF8F3CC8BEBB620"
+				"71D90A1E5D53FC0A"
+			]
+			id: "6824055533465010"
+			tasks: [
+				{
+					id: "34B7E632F7FD83DB"
+					type: "item"
+					item: "kubejs:calculation_mechanism"
+					consume_items: false
+				}
+				{
+					id: "48B114D2C0F51F6D"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			title: "第四章完成！"
+			x: 1.0d
+			y: 9.5d
+			shape: "hexagon"
+			description: [
+				"干得好！最终装配线现已完成。您的工厂刚刚进入数字时代。"
+				""
+				"在概述中已有新选项。随时可以开始。"
+			]
+			dependencies: ["6824055533465010"]
+			size: 2.0d
+			id: "28DAED70768C6A50"
+			tasks: [
+				{
+					id: "3E607053D3B0C552"
+					type: "item"
+					item: "appliedenergistics2:controller"
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "40B14407CE6BAB56"
+					type: "item"
+					item: "kubejs:calculation_mechanism"
+					count: 16
+				}
+				{
+					id: "1825E20FFD3BEBFF"
+					type: "item"
+					item: "appliedenergistics2:fluix_crystal"
+					random_bonus: 4
+				}
+				{
+					id: "3FD881040347300A"
+					type: "item"
+					item: "thermal:lead_plate"
+					random_bonus: 4
+				}
+			]
+		}
+		{
+			title: "沙子配送"
+			icon: "minecraft:sand"
+			x: -1.0d
+			y: -0.5d
+			subtitle: "构想31-1"
+			description: ["应安排新一批沙子的配送，因为其中富含硅。"]
+			hide_dependency_lines: true
+			dependencies: ["4B80A801A5BE4A01"]
+			id: "22202C87352242D6"
+			tasks: [
+				{
+					id: "54D2F2F87424AB45"
+					type: "item"
+					item: "minecraft:sand"
+					consume_items: false
+				}
+				{
+					id: "58353DEAB0670141"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			title: "沙球"
+			icon: "kubejs:sand_ball"
+			x: -1.0d
+			y: 0.5d
+			subtitle: "构想31-2"
+			description: [
+				"首先，将原始方块清洗和提炼成小球湿沙。"
+				""
+				"由于它们很容易会坍塌，因此不应将它们堆叠在另一个上面。感应式&a流体灌装机&f应该具有必要的精度，以可靠地生成这些。"
+			]
+			dependencies: ["22202C87352242D6"]
+			id: "42F1A649D86DB86D"
+			tasks: [
+				{
+					id: "05FFE255DDB4E66F"
+					type: "item"
+					item: "kubejs:sand_ball"
+					consume_items: false
+				}
+				{
+					id: "36183F0BBDAA8DB8"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			title: "液态沙"
+			icon: "kubejs:fine_sand_bucket"
+			x: 1.0d
+			y: 1.5d
+			shape: "circle"
+			description: ["筛分粗沙会产生与进一步精炼硅化合物相关的副产品。"]
+			dependencies: ["42F1A649D86DB86D"]
+			id: "4412F3B2827606E4"
+			tasks: [
+				{
+					id: "5C23F9DBF4F2F484"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			title: "粗砂"
+			icon: "kubejs:rough_sand"
+			x: -1.0d
+			y: 1.5d
+			subtitle: "构想31-3"
+			description: ["通过物品排水口对沙球进行&a辊压&f，可以揭示其中含有的较大块。"]
+			dependencies: ["42F1A649D86DB86D"]
+			id: "0F5AA5DF001DCDF5"
+			tasks: [
+				{
+					id: "006110328A2D022F"
+					type: "item"
+					item: "kubejs:rough_sand"
+					consume_items: false
+				}
+				{
+					id: "589AB5A61CD95E2F"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			title: "结晶沙"
+			icon: "kubejs:purified_sand"
+			x: -1.0d
+			y: 3.0d
+			subtitle: "构想33-3"
+			description: ["用地球电荷丰富粗沙，创建沙晶体。在&a液态硅&f含量达到适用于电路的状态之前，剩下的加工不多。"]
+			dependencies: [
+				"60A8B4C736CE3226"
+				"0F5AA5DF001DCDF5"
+			]
+			id: "343050A40A3AB1F0"
+			tasks: [
+				{
+					id: "76715E399222E329"
+					type: "item"
+					item: "kubejs:purified_sand"
+					consume_items: false
+				}
+				{
+					id: "2BE9DD7F346679E2"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			title: "&a热解炉&f第一轮"
+			icon: "minecraft:charcoal"
+			x: 3.0d
+			y: 0.5d
+			subtitle: "构想34-2"
+			description: ["木炭不严格需要进行热裂解过程，但如果木材供应有限，增加产量是值得的。"]
+			dependencies: ["46820FBDDDEE491E"]
+			id: "3249CD08992F2BCD"
+			tasks: [
+				{
+					id: "700F644CCBEBCA5A"
+					type: "item"
+					item: "minecraft:charcoal"
+					consume_items: false
+				}
+				{
+					id: "760709B05A0FEF11"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			title: "&a热解炉&f第二轮"
+			icon: "thermal:coal_coke"
+			x: 3.0d
+			y: 1.5d
+			subtitle: "构想34-3"
+			description: ["在第二次更长的热裂解过程中，形成&a焦煤碳&f。这是精炼&a液态硅&f和作为固体燃料提供热量的理想材料。"]
+			dependencies: ["3249CD08992F2BCD"]
+			id: "1A383F96B312D1B8"
+			tasks: [
+				{
+					id: "7AFFEF4014CE671C"
+					type: "item"
+					item: "thermal:coal_coke"
+					consume_items: false
+				}
+				{
+					id: "4960B920CCF3C186"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			title: "精准切割"
+			icon: "kubejs:coke_chunk"
+			x: 3.0d
+			y: 3.0d
+			subtitle: "构想35"
+			description: ["使用&a动力锯&f和水，可以将焦炭切成块，以便成为更有效的催化剂。"]
+			dependencies: ["1A383F96B312D1B8"]
+			id: "16F920C2AF2FA2E0"
+			tasks: [
+				{
+					id: "36A367A143AD6175"
+					type: "item"
+					item: "kubejs:coke_chunk"
+					consume_items: false
+				}
+				{
+					id: "44D36B403AA26E97"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			title: "混合"
+			icon: "kubejs:silicon_compound"
+			x: 1.0d
+			y: 4.0d
+			subtitle: "构想36"
+			description: ["精炼硅需要沙晶体、细沙和&a碳搅拌棒&f的混合。"]
+			dependencies: [
+				"343050A40A3AB1F0"
+				"4412F3B2827606E4"
+				"16F920C2AF2FA2E0"
+			]
+			id: "2268AFAF6E9AB5E2"
+			tasks: [
+				{
+					id: "7824435744C12C18"
+					type: "item"
+					item: "kubejs:silicon_compound"
+					consume_items: false
+				}
+				{
+					id: "2F239D4D9BB9B47A"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			title: "浓缩热"
+			icon: "thermal:earth_charge"
+			x: -3.0d
+			y: 3.0d
+			subtitle: "构想33-2"
+			description: ["将粉末紧凑成高度活性的裂岩弹。"]
+			dependencies: ["5799B4124EE20DB1"]
+			id: "60A8B4C736CE3226"
+			tasks: [
+				{
+					id: "2C3C495C9B18005A"
+					type: "item"
+					item: "thermal:earth_charge"
+					consume_items: false
+				}
+				{
+					id: "21545C0F55D9D8C8"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			title: "Basalz磨"
+			icon: "thermal:basalz_powder"
+			x: -3.0d
+			y: 2.0d
+			subtitle: "构想33-1"
+			description: ["在准备进行加工之前，basalz精华需要进行一些精炼。"]
+			dependencies: ["6C4CB8F616A9C3DF"]
+			id: "5799B4124EE20DB1"
+			tasks: [
+				{
+					id: "54F29099D9D81837"
+					type: "item"
+					item: "thermal:basalz_powder"
+					consume_items: false
+				}
+				{
+					id: "05969082F437FCA9"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			title: "高温激光"
+			icon: "thermal:basalz_rod"
+			x: -3.0d
+			y: 0.5d
+			subtitle: "构想32-2"
+			description: [
+				"第一台炼金激光从玄武岩中形成活化basalz精华。只有在磁力仓车内配有充电的&a通量磁铁&f时才有效。"
+				""
+				"可靠的自动化激光的方法是使用两个车载装载机，一个放置磁铁，一个用玄武岩块填充剩余的槽位。将推车移动到激光下方并激活它。从这里，您可以使用一个卸载器来提取磨损的磁铁以及所需的输出。"
+			]
+			dependencies: ["0B602ED47A0195A4"]
+			id: "6C4CB8F616A9C3DF"
+			tasks: [
+				{
+					id: "712E7C4EEB4BCF55"
+					type: "item"
+					item: "thermal:basalz_rod"
+					consume_items: false
+				}
+				{
+					id: "7DF47F688E5C795C"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			title: "现代化 Cobblegen"
+			icon: "minecraft:basalt"
+			x: -3.0d
+			y: -1.0d
+			subtitle: "装置 32-1"
+			description: ["玄武岩是一种易于获取的岩石，其中含有微量的惰性&a岩石粉&f。因此，需要稳定的供应来完成这项工作。"]
+			hide_dependency_lines: true
+			dependencies: ["4B80A801A5BE4A01"]
+			id: "0B602ED47A0195A4"
+			tasks: [
+				{
+					id: "4649973A51C977D9"
+					type: "item"
+					item: "minecraft:basalt"
+					consume_items: false
+				}
+				{
+					id: "738E569981496B56"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			title: "通量 &a袭击者&f"
+			icon: {
+				id: "thermal:flux_magnet"
+				Count: 1b
+				tag: { }
+			}
+			x: -4.0d
+			y: 1.0d
+			subtitle: "装置 32-3"
+			description: [
+				"为了形成玄武岩精华，车厢中的&a通量磁铁&f必须被充电。"
+				""
+				"因此，装置将不得不通过&a能量灌注机&f将磁铁从卸货车传送，然后再将其传回电路中。"
+			]
+			dependencies: ["0B602ED47A0195A4"]
+			id: "58B534C4AEB4139D"
+			tasks: [
+				{
+					id: "7538F2E8CFAF69F6"
+					type: "item"
+					item: {
+						id: "thermal:flux_magnet"
+						Count: 1b
+						tag: { }
+					}
+					consume_items: false
+				}
+				{
+					id: "11A074DF1CA99AD3"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			title: "雪球机"
+			icon: "minecraft:snowball"
+			x: 5.0d
+			y: -1.0d
+			subtitle: "装置 37"
+			description: ["新的&a殷钢&f技术使从水中制作雪球变得十分简单。也许我们应该为下一个未经通知的访客留几个。"]
+			hide_dependency_lines: true
+			dependencies: ["4B80A801A5BE4A01"]
+			id: "4B34B52092BA32BE"
+			tasks: [
+				{
+					id: "56F4F1F21FE5FB17"
+					type: "item"
+					item: "minecraft:snowball"
+					consume_items: false
+				}
+				{
+					id: "193D8F8FEC7F864B"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			title: "熵 &a袭击者&f"
+			icon: {
+				id: "appliedenergistics2:entropy_manipulator"
+				Count: 1b
+				tag: { }
+			}
+			x: 6.0d
+			y: 3.0d
+			subtitle: "装置 38-2"
+			description: [
+				"为了形成暴雪精华，车厢中的&a熵变机械臂&f必须被充电。"
+				""
+				"确保在下次使用前恢复其电荷。"
+			]
+			dependencies: ["4B34B52092BA32BE"]
+			id: "6D1519B746E032FB"
+			tasks: [
+				{
+					id: "641183133CA49CCA"
+					type: "item"
+					item: {
+						id: "appliedenergistics2:entropy_manipulator"
+						Count: 1b
+						tag: { }
+					}
+					consume_items: false
+				}
+				{
+					id: "49EAB67814570219"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			title: "冷激光"
+			icon: "thermal:blizz_rod"
+			x: 5.0d
+			y: 2.5d
+			subtitle: "装置 38-1"
+			description: [
+				"第二台炼金激光器通过雪球形成激活的暴雪精华。只有在漏斗车中同时存在已充电的&a熵变机械臂&f的情况下才有效。"
+				""
+				"您在装置 32 中的自动化策略在这里同样有效。"
+			]
+			dependencies: ["4B34B52092BA32BE"]
+			id: "0AE7FAEBD5F86D9C"
+			tasks: [
+				{
+					id: "11B1248ECFCD2F26"
+					type: "item"
+					item: "thermal:blizz_rod"
+					consume_items: false
+				}
+				{
+					id: "518D5675C9D1757D"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			title: "暴雪磨"
+			icon: "thermal:blizz_powder"
+			x: 5.0d
+			y: 4.0d
+			subtitle: "装置 39-1"
+			description: ["与之前一样，只有经过一些精炼处理后的精华才可用。"]
+			dependencies: ["0AE7FAEBD5F86D9C"]
+			id: "01B0A6236A5073D1"
+			tasks: [
+				{
+					id: "7EA6D73F7A49EBAF"
+					type: "item"
+					item: "thermal:blizz_powder"
+					consume_items: false
+				}
+				{
+					id: "5CA556BB4614DD06"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			title: "浓缩冷"
+			icon: "thermal:ice_charge"
+			x: 5.0d
+			y: 5.0d
+			subtitle: "装置 39-2"
+			description: ["将足够的粉末压缩在一起，制造出高度反应性的&a瀑冰弹&f。"]
+			dependencies: ["01B0A6236A5073D1"]
+			id: "4732465116D723EE"
+			tasks: [
+				{
+					id: "3DFF735C19CE82A5"
+					type: "item"
+					item: "thermal:ice_charge"
+					consume_items: false
+				}
+				{
+					id: "220B89A9B897FA67"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			title: "最终感应"
+			icon: "appliedenergistics2:silicon"
+			x: 3.0d
+			y: 5.0d
+			subtitle: "装置 39-3"
+			description: ["现在，在&a感应炉&f中进行最后一次加工，产生一块高品质的&a液态硅&f。"]
+			dependencies: [
+				"2268AFAF6E9AB5E2"
+				"4732465116D723EE"
+			]
+			id: "067C5FDA4709F195"
+			tasks: [
+				{
+					id: "263459FBEC9F9868"
+					type: "item"
+					item: "appliedenergistics2:silicon"
+					consume_items: false
+				}
+				{
+					id: "57D267DD10A22D32"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			title: "&a电路板&f &a压印锤&f"
+			icon: "appliedenergistics2:printed_silicon"
+			x: 1.0d
+			y: 6.0d
+			subtitle: "装置 40-1"
+			description: ["使用&a机械手&f以硅制成电路基板。所需的压印工具可以在&a陨石&f坠落地的中心找到。"]
+			dependencies: [
+				"067C5FDA4709F195"
+				"4B19B6EAD511378D"
+			]
+			dependency_requirement: "one_completed"
+			id: "71D90A1E5D53FC0A"
+			tasks: [
+				{
+					id: "12C1BB8D09D664B4"
+					type: "item"
+					item: "appliedenergistics2:printed_silicon"
+					consume_items: false
+				}
+				{
+					id: "20B36555F58C4DB1"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			title: "揭示的秘密"
+			icon: "kubejs:substrate_silicon"
+			disable_toast: true
+			x: -3.0d
+			y: 5.0d
+			shape: "hexagon"
+			description: ["秘密通道已被发现并追寻。从这里开始获取计算机制将变得轻而易举。"]
+			dependencies: ["3B431AAADE8845FA"]
+			hide: true
+			size: 1.5d
+			id: "0CE88FEA070DC46C"
+			tasks: [
+				{
+					id: "5B4F2E2F7BDEA6A0"
+					type: "stat"
+					title: "Complete Chapter 4a"
+					icon: "kubejs:substrate_chaos"
+					disable_toast: true
+					stat: "minecraft:play_one_minute"
+					value: 1
+				}
+			]
+		}
+		{
+			title: "炼金激光器"
+			icon: "projectred-illumination:lime_inverted_cage_light"
+			x: 3.0d
+			y: -2.5d
+			shape: "circle"
+			description: [
+				"在这个科技时代，炼金激光器扮演着一个核心角色。"
+				""
+				"通常涉及将一种材料转化为另一种，使用高能束以及一种催化剂或工具。"
+				""
+				"发明家们可以通过JEI或输入 &6/c ponder kubejs:alchemical_laser 熟悉必要的机械组件。"
+			]
+			dependencies: ["4B80A801A5BE4A01"]
+			id: "6D26DAB7D0FF6E90"
+			tasks: [
+				{
+					id: "16897A4EF323B02E"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "14F213F493035F9B"
+					type: "command"
+					title: "Open Ponder Scene"
+					icon: {
+						id: "occultism:book_of_calling_djinni_manage_machine"
+						Count: 1b
+						tag: {
+							spiritName: "Rayarces"
+						}
+					}
+					team_reward: false
+					command: "/create ponder kubejs:alchemical_laser"
+					player_command: true
+				}
+			]
+		}
+		{
+			title: "木材供应"
+			icon: "minecraft:oak_log"
+			x: 3.0d
+			y: -0.5d
+			shape: "square"
+			subtitle: "装置 34-1"
+			description: ["向这个地点订购木材供应将很有帮助。除了&a液态硅&f，它还可以为这条生产线贡献其他一些有用的产品。"]
+			hide_dependency_lines: true
+			dependencies: ["4B80A801A5BE4A01"]
+			id: "46820FBDDDEE491E"
+			tasks: [
+				{
+					id: "0AA0DEB1A87DA675"
+					type: "item"
+					title: "Any Wooden Log"
+					icon: "minecraft:oak_log"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+					consume_items: false
+				}
+				{
+					id: "72BA1D3BD545CBE6"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			title: "装备第四台&a机械手&f"
+			x: -0.5d
+			y: 7.5d
+			shape: "circle"
+			description: ["使用&a闪现者&f驱动可以简化计算机制的安装过程。所需的珍贵钴可以在地狱中找到。"]
+			hide_dependency_lines: true
+			dependencies: ["71D90A1E5D53FC0A"]
+			id: "1BF8F3CC8BEBB620"
+			tasks: [
+				{
+					id: "1CC8A01100CE4AE3"
+					type: "item"
+					item: {
+						id: "kubejs:flash_drive"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: false
+				}
+			]
+		}
+		{
+			title: "解包"
+			icon: "appliedenergistics2:silicon"
+			x: -1.0d
+			y: 5.0d
+			subtitle: "装置 39-A"
+			description: ["使用&a试剂&f&a提取机&f将&a液态硅&f从瓶中分离出来。"]
+			dependencies: ["0CE88FEA070DC46C"]
+			id: "4B19B6EAD511378D"
+			tasks: [
+				{
+					id: "6FCB9E7E2CC10348"
+					type: "item"
+					item: "appliedenergistics2:silicon"
+					consume_items: false
+				}
+				{
+					id: "0A4B691EF3CDC7A0"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			title: "煤浆"
+			icon: "thermal:creosote_bucket"
+			x: 4.0d
+			y: 1.0d
+			shape: "circle"
+			description: ["&a杂酚油&f是一种副产品。它可以用作额外的燃料来源。"]
+			dependencies: ["3249CD08992F2BCD"]
+			id: "33674138F4866C18"
+			tasks: [
+				{
+					id: "224ACB0727C6F84E"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			title: "快速&a电路板&f炒 I"
+			x: 3.0d
+			y: 9.5d
+			subtitle: "装置41-1"
+			description: ["在创建ME技术的物流组件时，需要额外的&a处理器&f。在某个时候，应考虑半自动化的使用。"]
+			dependencies: ["28DAED70768C6A50"]
+			id: "24C48CFAAD71B230"
+			tasks: [
+				{
+					id: "10D5C1E5071B1B53"
+					type: "item"
+					item: "appliedenergistics2:printed_calculation_processor"
+					consume_items: false
+				}
+				{
+					id: "32F50DF8BD6E3927"
+					type: "item"
+					item: "appliedenergistics2:printed_logic_processor"
+					consume_items: false
+				}
+				{
+					id: "2E5AD5026FDB28CB"
+					type: "item"
+					item: "appliedenergistics2:printed_engineering_processor"
+					consume_items: false
+				}
+			]
+		}
+		{
+			title: "快速&a电路板&f炒 II"
+			x: 4.0d
+			y: 9.5d
+			subtitle: "装置41-2"
+			description: ["组装&a处理器&f并不是一个微不足道的过程。但看着它工作确实很有趣。"]
+			dependencies: ["24C48CFAAD71B230"]
+			id: "2B8F1D804107EB8C"
+			tasks: [
+				{
+					id: "186FEC9FE047828F"
+					type: "item"
+					item: "appliedenergistics2:calculation_processor"
+					consume_items: false
+				}
+				{
+					id: "2DCA8F3CB7884170"
+					type: "item"
+					item: "appliedenergistics2:logic_processor"
+					consume_items: false
+				}
+				{
+					id: "75950A3A22C9DC8E"
+					type: "item"
+					item: "appliedenergistics2:engineering_processor"
+					consume_items: false
+				}
+			]
+		}
+		{
+			title: "新容量"
+			icon: "thermal:dynamo_magmatic"
+			x: -1.0d
+			y: -2.5d
+			shape: "circle"
+			description: ["即将到来的&a装配线&f将需要大量的通量能量来运行。建议寻找合适的发电方法，并在规划时考虑更高的尺度，以防必要时需要。"]
+			dependencies: ["4B80A801A5BE4A01"]
+			id: "13B197C90F9812C8"
+			tasks: [
+				{
+					id: "4C687EF00A44ED1E"
+					type: "checkmark"
+				}
+			]
+		}
+	]
+}

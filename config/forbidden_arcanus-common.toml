@@ -53,7 +53,7 @@
 
 	[world_gen.petrified_root]
 		#Generate Petrified Roots? [default: true]
-		generate = true
+		generate = false
 
 	[world_gen.dark_runestone]
 		#Maximum size of Dark Runestone veins [default: 3]
@@ -123,7 +123,7 @@
 		#Range: > 0
 		separation = 8
 		#Generate Nipas? [default: true]
-		generate = true
+		generate = false
 
 [items]
 
@@ -209,7 +209,7 @@
 		#Range: 0 ~ 100
 		aureal_entity_death_increasement_amount = 3
 		#Do you want to completely disable corruption consequences? [default: false]
-		disable_consequences = false
+		disable_consequences = true
 		#How much Corruption should killing a normal Entity give [default: 1]
 		#Range: 0 ~ 100
 		entity_death_increasement_amount = 1

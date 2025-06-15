@@ -25,7 +25,7 @@
 		blacklistedNestGenBiomes = []
 		#How many nests, on average, should appear when generated (0 = disabled; 1 = few; 100+ = many)
 		#Range: > 0
-		nestGenRate = 8
+		nestGenRate = 1
 		#A list of dimensions that nests are not able to generate in
 		blacklistedNestGenDimensions = []
 		#Allow eggs to regenerate in nests
@@ -62,7 +62,7 @@
 		blacklistedBiomesBooby = []
 		#Blue-footed booby spawn rate (0 = disabled; 1 = common; 100+ = rare)
 		#Range: > 0
-		spawnRateBooby = 6
+		spawnRateBooby = 12
 
 	[entity.kiwi]
 		#Kiwi maximum group size
@@ -72,7 +72,7 @@
 		blacklistedBiomesKiwi = []
 		#Kiwi spawn rate (0 = disabled; 1 = common; 100+ = rare)
 		#Range: > 0
-		spawnRateKiwi = 8
+		spawnRateKiwi = 16
 		#Kiwi minimum group size
 		#Range: 1 ~ 50
 		spawnSizeMinKiwi = 2
@@ -85,7 +85,7 @@
 		spawnSizeMaxCassowary = 5
 		#Cassowary spawn rate (0 = disabled; 1 = common; 100+ = rare)
 		#Range: > 0
-		spawnRateCassowary = 5
+		spawnRateCassowary = 10
 		#A list of biomes the cassowary cannot spawn in
 		blacklistedBiomesCassowary = []
 		#Cassowary minimum group size
@@ -107,7 +107,7 @@
 		blacklistedDimensionsOstrich = []
 		#Ostrich spawn rate (0 = disabled; 1 = common; 100+ = rare)
 		#Range: > 0
-		spawnRateOstrich = 5
+		spawnRateOstrich = 10
 
 	[entity.owl]
 		#Owl minimum group size
@@ -120,7 +120,7 @@
 		spawnSizeMaxOwl = 5
 		#Owl spawn rate (0 = disabled; 1 = common; 100+ = rare)
 		#Range: > 0
-		spawnRateOwl = 6
+		spawnRateOwl = 24
 		#A list of biomes the owl cannot spawn in
 		blacklistedBiomesOwl = []
 
@@ -135,7 +135,7 @@
 		spawnSizeMinBluejay = 2
 		#Blue jay spawn rate (0 = disabled; 1 = common; 100+ = rare)
 		#Range: > 0
-		spawnRateBluejay = 12
+		spawnRateBluejay = 24
 		#A list of dimensions the bluejay cannot spawn in
 		blacklistedDimensionsBluejay = []
 
@@ -147,7 +147,7 @@
 		blacklistedBiomesGouldianfinch = []
 		#Gouldian finch spawn rate (0 = disabled; 1 = common; 100+ = rare)
 		#Range: > 0
-		spawnRateGouldianfinch = 5
+		spawnRateGouldianfinch = 10
 		#A list of dimensions the gouldianfinch cannot spawn in
 		blacklistedDimensionsGouldianfinch = []
 		#Gouldian finch minimum group size
@@ -167,12 +167,12 @@
 		spawnSizeMaxWoodpecker = 5
 		#Woodpecker spawn rate (0 = disabled; 1 = common; 100+ = rare)
 		#Range: > 0
-		spawnRateWoodpecker = 12
+		spawnRateWoodpecker = 24
 
 	[entity.cockatoo]
 		#Vulture spawn rate (0 = disabled; 1 = common; 100+ = rare)
 		#Range: > 0
-		spawnRateCockatoo = 8
+		spawnRateCockatoo = 16
 		#Vulture minimum group size
 		#Range: 1 ~ 50
 		spawnSizeMinCockatoo = 2
@@ -197,7 +197,7 @@
 		spawnSizeMinRobin = 2
 		#Robin spawn rate (0 = disabled; 1 = common; 100+ = rare)
 		#Range: > 0
-		spawnRateRobin = 12
+		spawnRateRobin = 24
 
 	[entity.duck]
 		#Duck spawn rate (0 = disabled; 1 = common; 100+ = rare)
@@ -219,7 +219,7 @@
 		blacklistedBiomesHeron = []
 		#Heron spawn rate (0 = disabled; 1 = common; 100+ = rare)
 		#Range: > 0
-		spawnRateHeron = 6
+		spawnRateHeron = 12
 		#A list of dimensions the heron cannot spawn in
 		blacklistedDimensionsHeron = []
 		#Heron minimum group size
@@ -234,7 +234,7 @@
 		blacklistedBiomesBudgerigar = []
 		#Budgerigar spawn rate (0 = disabled; 1 = common; 100+ = rare)
 		#Range: > 0
-		spawnRateBudgerigar = 10
+		spawnRateBudgerigar = 15
 		#Budgerigar minimum group size
 		#Range: 1 ~ 50
 		spawnSizeMinBudgerigar = 2
@@ -247,7 +247,7 @@
 	[entity.magpie]
 		#Magpie spawn rate (0 = disabled; 1 = common; 100+ = rare)
 		#Range: > 0
-		spawnRateMagpie = 12
+		spawnRateMagpie = 24
 		#A list of dimensions the magpie cannot spawn in
 		blacklistedDimensionsMagpie = []
 		#Magpie maximum group size
@@ -270,7 +270,7 @@
 		blacklistedDimensionsRoadrunner = []
 		#Roadrunner spawn rate (0 = disabled; 1 = common; 100+ = rare)
 		#Range: > 0
-		spawnRateRoadrunner = 10
+		spawnRateRoadrunner = 20
 		#A list of biomes the roadrunner cannot spawn in
 		blacklistedBiomesRoadrunner = []
 
@@ -287,14 +287,14 @@
 		blacklistedDimensionsGull = []
 		#Seagull spawn rate (0 = disabled; 1 = common; 100+ = rare)
 		#Range: > 0
-		spawnRateGull = 12
+		spawnRateGull = 24
 
 	[entity.pigeon]
 		#A list of biomes the pigeon cannot spawn in
 		blacklistedBiomesPigeon = []
 		#Pigeon spawn rate (0 = disabled; 1 = common; 100+ = rare)
 		#Range: > 0
-		spawnRatePigeon = 12
+		spawnRatePigeon = 24
 		#Pigeon maximum group size
 		#Range: 1 ~ 50
 		spawnSizeMaxPigeon = 5
@@ -315,14 +315,14 @@
 		blacklistedBiomesCrane = []
 		#Crane spawn rate (0 = disabled; 1 = common; 100+ = rare)
 		#Range: > 0
-		spawnRateCrane = 6
+		spawnRateCrane = 12
 		#A list of dimensions the crane cannot spawn in
 		blacklistedDimensionsCrane = []
 
 	[entity.swan]
 		#Swan spawn rate (0 = disabled; 1 = common; 100+ = rare)
 		#Range: > 0
-		spawnRateSwan = 10
+		spawnRateSwan = 20
 		#Swan minimum group size
 		#Range: 1 ~ 50
 		spawnSizeMinSwan = 2
@@ -345,7 +345,7 @@
 		spawnSizeMinMacaw = 2
 		#Parrot spawn rate (0 = disabled; 1 = common; 100+ = rare)
 		#Range: > 0
-		spawnRateMacaw = 6
+		spawnRateMacaw = 12
 		#A list of biomes the macaw cannot spawn in
 		blacklistedBiomesMacaw = []
 
@@ -357,7 +357,7 @@
 		spawnSizeMinPelican = 2
 		#Pelican spawn rate (0 = disabled; 1 = common; 100+ = rare)
 		#Range: > 0
-		spawnRatePelican = 6
+		spawnRatePelican = 12
 		#Pelican maximum group size
 		#Range: 1 ~ 50
 		spawnSizeMaxPelican = 5
@@ -377,7 +377,7 @@
 		blacklistedBiomesCardinal = []
 		#Cardinal spawn rate (0 = disabled; 1 = common; 100+ = rare)
 		#Range: > 0
-		spawnRateCardinal = 12
+		spawnRateCardinal = 24
 
 	[entity.kingfisher]
 		#Kingfisher minimum group size
@@ -390,7 +390,7 @@
 		blacklistedDimensionsKingfisher = []
 		#Kingfisher spawn rate (0 = disabled; 1 = common; 100+ = rare)
 		#Range: > 0
-		spawnRateKingfisher = 10
+		spawnRateKingfisher = 20
 		#A list of biomes the kingfisher cannot spawn in
 		blacklistedBiomesKingfisher = []
 
@@ -400,7 +400,7 @@
 		spawnSizeMaxFlamingo = 5
 		#Flamingo spawn rate (0 = disabled; 1 = common; 100+ = rare)
 		#Range: > 0
-		spawnRateFlamingo = 8
+		spawnRateFlamingo = 16
 		#Flamingo minimum group size
 		#Range: 1 ~ 50
 		spawnSizeMinFlamingo = 2
@@ -419,7 +419,7 @@
 		blacklistedBiomesLyrebird = []
 		#Lyrebird spawn rate (0 = disabled; 1 = common; 100+ = rare)
 		#Range: > 0
-		spawnRateLyrebird = 8
+		spawnRateLyrebird = 16
 		#Lyrebird maximum group size
 		#Range: 1 ~ 50
 		spawnSizeMaxLyrebird = 5
@@ -432,7 +432,7 @@
 		spawnSizeMinPeafowl = 2
 		#Peafowl spawn rate (0 = disabled; 1 = common; 100+ = rare)
 		#Range: > 0
-		spawnRatePeafowl = 6
+		spawnRatePeafowl = 12
 		#Peafowl maximum group size
 		#Range: 1 ~ 50
 		spawnSizeMaxPeafowl = 5
@@ -442,7 +442,7 @@
 	[entity.kookaburra]
 		#Kookaburra spawn rate (0 = disabled; 1 = common; 100+ = rare)
 		#Range: > 0
-		spawnRateKookaburra = 6
+		spawnRateKookaburra = 12
 		#A list of dimensions the kookaburra cannot spawn in
 		blacklistedDimensionsKookaburra = []
 		#Kookaburra maximum group size
@@ -459,7 +459,7 @@
 		blacklistedBiomesToucan = []
 		#Toucan spawn rate (0 = disabled; 1 = common; 100+ = rare)
 		#Range: > 0
-		spawnRateToucan = 6
+		spawnRateToucan = 12
 		#Toucan maximum group size
 		#Range: 1 ~ 50
 		spawnSizeMaxToucan = 5
@@ -472,7 +472,7 @@
 	[entity.hummingbird]
 		#Hummingbird spawn rate (0 = disabled; 1 = common; 100+ = rare)
 		#Range: > 0
-		spawnRateHummingbird = 18
+		spawnRateHummingbird = 26
 		#A list of biomes the hummingbird cannot spawn in
 		blacklistedBiomesHummingbird = []
 		#Hummingbird maximum group size
@@ -490,7 +490,7 @@
 		spawnSizeMaxPenguin = 5
 		#Penguin spawn rate (0 = disabled; 1 = common; 100+ = rare)
 		#Range: > 0
-		spawnRatePenguin = 6
+		spawnRatePenguin = 12
 		#A list of dimensions the penguin cannot spawn in
 		blacklistedDimensionsPenguin = []
 		#Penguin minimum group size

@@ -30,7 +30,7 @@
 	#Range: 0.0 ~ 1000.0
 	savannaMineshaftSpawnrate = 40.0
 	#Range: 0.0 ~ 1000.0
-	endMineshaftSpawnrate = 60.0
+	endMineshaftSpawnrate = 40.0
 	#Range: 0.0 ~ 1000.0
 	warpedMineshaftSpawnrate = 40.0
 

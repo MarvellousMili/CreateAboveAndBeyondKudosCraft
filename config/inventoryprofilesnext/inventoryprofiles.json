@@ -2,8 +2,15 @@
     "ModSettings": {
         "first_run": false
     },
-    "LockedSlotsSettings": {
-        "locked_slots_empty_hotbar_as_semi_locked": {
+    "Hotkeys": {
+        "sort_inventory": {
+            "main": {
+                "keys": "LEFT_ALT,Q"
+            }
+        }
+    },
+    "Tweaks": {
+        "container_swipe_moving_items": {
             "value": false
         }
     }

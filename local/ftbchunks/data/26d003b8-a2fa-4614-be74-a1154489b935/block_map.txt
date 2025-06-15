@@ -3,7 +3,9 @@
 #628822 create:adjustable_repeater
 #FBEB73 minecraft:allium
 #FA75A8 minecraft:andesite
+#0A1C64 create:andesite_belt_funnel
 #A4683B create:andesite_casing
+#DA9404 create:andesite_funnel
 #D31607 minecraft:andesite_wall
 #DBECBF minecraft:anvil
 #B2FA5E darkerdepths:aridrock
@@ -36,6 +38,7 @@
 #B14754 supplementaries:block_generator
 #45C81B minecraft:blue_orchid
 #15C8D4 minecraft:bookshelf
+#6754E0 create:brass_belt_funnel
 #02FE08 create:brass_funnel
 #E6D6BA create:brass_tunnel
 #1BDBFB minecraft:brick_stairs
@@ -98,6 +101,7 @@
 #2D68D6 minecraft:dead_bush
 #5E5E58 create:deployer
 #FF48B8 create:depot
+#CB3012 thermal:device_nullifier
 #CB716A minecraft:diamond_ore
 #BED665 minecraft:diorite
 #80497A minecraft:dirt
@@ -119,6 +123,8 @@
 #009B14 minecraft:farmland
 #64DB80 fairylights:fastener
 #E7F264 minecraft:flower_pot
+#DC0D87 create:fluid_pipe
+#DDC0C3 create:fluid_tank
 #5F7D4C create:flywheel
 #2DC94B minecraft:furnace
 #18B58D create:furnace_engine
@@ -126,6 +132,7 @@
 #D60460 create:gearbox
 #F832D7 create:gearshift
 #2F436F minecraft:glass
+#AE162A create:glass_fluid_pipe
 #279E3E minecraft:glass_pane
 #482EEB minecraft:glowstone
 #2C1BE1 minecraft:gold_block
@@ -145,6 +152,7 @@
 #52D27E minecraft:ice
 #0575BD minecraft:infested_stone
 #D7EADE minecraft:iron_ore
+#20FC50 create:item_drain
 #7E0D49 minecraft:jack_o_lantern
 #6B68B5 minecraft:jungle_log
 #F7CC06 minecraft:jungle_planks
@@ -169,6 +177,7 @@
 #6B454F create:mechanical_drill
 #E638FD create:mechanical_mixer
 #145137 create:mechanical_press
+#65707C create:mechanical_pump
 #4F44DD create:mechanical_saw
 #C4844D create:millstone
 #A4FC4B minecraft:mossy_cobblestone

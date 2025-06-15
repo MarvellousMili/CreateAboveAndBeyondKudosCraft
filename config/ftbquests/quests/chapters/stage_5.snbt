@@ -1,0 +1,962 @@
+{
+	id: "75CF8B6BAC6A01EF"
+	group: "331B6409EF6A7840"
+	order_index: 6
+	filename: "stage_5"
+	title: "&f5&r 数字分割"
+	icon: "kubejs:computation_matrix"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "终章开始！"
+			icon: "kubejs:calculation_mechanism"
+			x: 5.0d
+			y: 15.5d
+			shape: "hexagon"
+			description: [
+				"欢迎来到这段旅程的最终章：建造数据中心。这意味着什么？成千上万次的数字计算！"
+				"但不要害怕，作为一个发明家，你将让你的创造物像往常一样为你完成所有工作。"
+				""
+				"将你所有的计算机制的综合逻辑转化为两个数字，然后通过一系列的制作操作计算出其他8个数字。建议使用数字ME系统来管理后勤，尽管不是绝对必要。"
+			]
+			dependencies: ["251A91F6C21AEAFB"]
+			hide: true
+			size: 2.0d
+			id: "5D0454F977C4F080"
+			tasks: [
+				{
+					id: "1F6009A328AA0184"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "0397D214E0A6CC89"
+					type: "item"
+					item: "create:builders_tea"
+				}
+			]
+		}
+		{
+			title: "我们升空了！"
+			icon: "advancedrocketry:guidancecomputer"
+			x: 2.0d
+			y: 7.75d
+			shape: "hexagon"
+			description: [
+				"一切就绪，矩阵已经编程完成，你可以继续组装&a导航电脑&f并将其添加到你的宇宙飞船上。"
+				""
+				"花点时间制作一面代表你太空计划的旗帜带到月球上。你可以向它应用图案，就像一个旗帜一样。"
+				""
+				"在合适的时机，坐在你已组装好的火箭上，按下空格键。"
+			]
+			dependencies: [
+				"6BA9A176EDA001A3"
+				"1AE7B6CA4D1DBA6F"
+				"462CE0A4C80442FB"
+				"69311E02A8B3451D"
+				"3AD7553F3C8593F9"
+				"4800892E1E70648D"
+				"25B76A897D97C9F1"
+				"73473DC7269EC5B0"
+			]
+			size: 2.0d
+			id: "47965C310D9847DC"
+			tasks: [
+				{
+					id: "05BDC7ACF64D13C2"
+					type: "item"
+					item: "advancedrocketry:guidancecomputer"
+					consume_items: false
+				}
+				{
+					id: "4418C7A289B17158"
+					type: "item"
+					title: "Any Flag"
+					icon: {
+						id: "supplementaries:flag_gray"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								Patterns: [
+									{
+										Pattern: "gra"
+										Color: 0
+									}
+									{
+										Pattern: "bo"
+										Color: 15
+									}
+									{
+										Pattern: "bs"
+										Color: 15
+									}
+									{
+										Pattern: "ts"
+										Color: 15
+									}
+									{
+										Pattern: "rs"
+										Color: 15
+									}
+									{
+										Pattern: "ls"
+										Color: 11
+									}
+								]
+							}
+						}
+					}
+					disable_toast: true
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "supplementaries:flag_orange"
+									Count: 1b
+								}
+								{
+									id: "supplementaries:flag_magenta"
+									Count: 1b
+								}
+								{
+									id: "supplementaries:flag_light_blue"
+									Count: 1b
+								}
+								{
+									id: "supplementaries:flag_lime"
+									Count: 1b
+								}
+								{
+									id: "supplementaries:flag_gray"
+									Count: 1b
+								}
+								{
+									id: "supplementaries:flag_cyan"
+									Count: 1b
+								}
+								{
+									id: "supplementaries:flag_green"
+									Count: 1b
+								}
+								{
+									id: "supplementaries:flag_red"
+									Count: 1b
+								}
+								{
+									id: "supplementaries:flag_white"
+									Count: 1b
+								}
+								{
+									id: "supplementaries:flag_light_gray"
+									Count: 1b
+								}
+								{
+									id: "supplementaries:flag_yellow"
+									Count: 1b
+								}
+								{
+									id: "supplementaries:flag_pink"
+									Count: 1b
+								}
+								{
+									id: "supplementaries:flag_purple"
+									Count: 1b
+								}
+								{
+									id: "supplementaries:flag_blue"
+									Count: 1b
+								}
+								{
+									id: "supplementaries:flag_brown"
+									Count: 1b
+								}
+								{
+									id: "supplementaries:flag_black"
+									Count: 1b
+								}
+							]
+						}
+					}
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "7F4FDBDE58C30C3A"
+					type: "item"
+					item: {
+						id: "desolation:charred_fence"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Flag Pole\",\"italic\":false,\"color\":\"aqua\"}"
+							}
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			title: "解决弹道"
+			x: 2.0d
+			y: 9.5d
+			shape: "circle"
+			subtitle: "装置45"
+			description: [
+				"为了计算导航电脑，我们需要... 很多这些数字。"
+				""
+				"在让物品离开计算的逻辑生态系统之前，确保每个数字都以相等的数量离开。&a黄铜隧道&f可以直截了当地解决这个问题。"
+				""
+				"现在每个数字都必须通过&a冶炼厂&f溶解回其液态形式。一旦&a冶炼厂&f收集到每种数字的10个液态物品，它们就会结合成计算机所需的编码逻辑。一旦积累了足够数量的这种象征性合金，它就可以铸造成强大的计算矩阵。"
+				""
+				"&a导航电脑&f需要8个矩阵才能运行。根据你的数据中心和机制装配线，这可能需要一些时间。"
+			]
+			dependencies: [
+				"42B5C0102B22F389"
+				"5358E5F7FB59DD60"
+				"5550A3E383EFEC90"
+				"55F959A18E904D6C"
+				"7927B6162577FA7B"
+				"1C6657984648B0D4"
+				"4A16CE3BC111280F"
+				"3126DE83A6741671"
+				"7D808F15BEDD7A7B"
+				"2441491CB5D5E57D"
+			]
+			dependency_requirement: "one_completed"
+			id: "69311E02A8B3451D"
+			tasks: [
+				{
+					id: "2C98415D43457049"
+					type: "item"
+					item: "kubejs:computation_matrix"
+					count: 8L
+					consume_items: false
+				}
+			]
+		}
+		{
+			title: "处理能力"
+			icon: {
+				id: "thermal:fluid_cell"
+				Count: 1b
+				tag: {
+					Properties: { }
+					BlockEntityTag: {
+						RSControl: {
+							RSThreshold: 0b
+							RSMode: 0b
+						}
+						AmountOut: 1000
+						Xfer: {
+							XferOut: 1b
+							XferIn: 0b
+						}
+						TankInv: [
+							{
+								FluidName: "kubejs:raw_logic"
+								Capacity: 32000
+								Tank: 0b
+								Amount: 32000
+							}
+						]
+						AmountIn: 1000
+					}
+				}
+			}
+			x: 2.0d
+			y: 15.5d
+			shape: "square"
+			subtitle: "装置42"
+			description: ["为了为'机械'&a计算器&f提供数字和运算符，所有可用的计算机制必须被熔化成它们提供的象征性处理能力。"]
+			dependencies: ["5D0454F977C4F080"]
+			size: 1.5d
+			id: "70D563EF30E9CB97"
+			tasks: [
+				{
+					id: "2A4A54EBAFBEB39F"
+					type: "item"
+					item: "kubejs:raw_logic_bucket"
+					consume_items: false
+				}
+				{
+					id: "406AAC43EBD44F6A"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			icon: "kubejs:three"
+			x: 0.5d
+			y: 13.5d
+			subtitle: "装置43-1"
+			description: [
+				"作为两种可用数字之一，Three可以从未经处理的逻辑中铸造出来。与Eight和可用的运算符一起，你的&a计算器&f将不得不以相等的数量创建从0到9的剩余数字。"
+				""
+				"这个铸造过程很快就会成为一个瓶颈，因为大多数正在运行的计算都取决于这里产生的数字。确保一切顺利进行。"
+			]
+			dependencies: ["70D563EF30E9CB97"]
+			id: "5550A3E383EFEC90"
+			tasks: [
+				{
+					id: "343E4ED28EA67219"
+					type: "item"
+					item: "kubejs:three"
+					consume_items: false
+				}
+				{
+					id: "61DEC75D20A61088"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			icon: "kubejs:eight"
+			x: 3.5d
+			y: 13.5d
+			subtitle: "装置43-3"
+			description: [
+				"第二个可用数字是Eight。它可以从未经处理的逻辑中铸造出来。"
+				""
+				"从这里开始，计划其他数字将如何通过哪些计算生成，并且如何将成本最小化。请记住，每增加一个计算步骤都会增加为其引导的数字所需的计算机制的数量。"
+			]
+			dependencies: ["70D563EF30E9CB97"]
+			id: "3126DE83A6741671"
+			tasks: [
+				{
+					id: "18BB7C8E32701CB6"
+					type: "item"
+					item: "kubejs:eight"
+					consume_items: false
+				}
+				{
+					id: "4DAD021C66AB2A27"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			icon: "kubejs:zero"
+			x: 5.5d
+			y: 11.5d
+			subtitle: "装置44-8"
+			description: ["3-3，2-2，8-8，...？总共有39个选项可用于计算零。一个艰难的决定！"]
+			dependencies: [
+				"5550A3E383EFEC90"
+				"3126DE83A6741671"
+				"4E85C8A2EEEB57C3"
+			]
+			id: "2441491CB5D5E57D"
+			tasks: [
+				{
+					id: "6FF94B3F20E69F43"
+					type: "item"
+					item: "kubejs:zero"
+					consume_items: false
+				}
+				{
+					id: "3413FA802F33F4BF"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			icon: "kubejs:one"
+			x: -1.5d
+			y: 11.5d
+			subtitle: "装置44-1"
+			description: ["3-2，4/4，8-7，...？总共有21个选项可用于计算一。不管选择哪一个都行？"]
+			dependencies: [
+				"5550A3E383EFEC90"
+				"3126DE83A6741671"
+				"4E85C8A2EEEB57C3"
+			]
+			id: "42B5C0102B22F389"
+			tasks: [
+				{
+					id: "61A3EF7882F2A31E"
+					type: "item"
+					item: "kubejs:one"
+					consume_items: false
+				}
+				{
+					id: "402FD7973EC66AEA"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			icon: "kubejs:two"
+			x: -0.5d
+			y: 11.5d
+			subtitle: "装置44-2"
+			description: ["3-1，8/4，1+1，...？总共有17个选项可用于计算二。有什么特别偏爱的吗？"]
+			dependencies: [
+				"5550A3E383EFEC90"
+				"3126DE83A6741671"
+				"4E85C8A2EEEB57C3"
+			]
+			id: "5358E5F7FB59DD60"
+			tasks: [
+				{
+					id: "2AD655BD7E1A0EBF"
+					type: "item"
+					item: "kubejs:two"
+					consume_items: false
+				}
+				{
+					id: "14D9C52366D6AF27"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			icon: "kubejs:four"
+			x: 0.5d
+			y: 11.5d
+			subtitle: "装置44-3"
+			description: ["6-2，2x2，3+1，...？总共有16个选项可用于计算四。要明智地选择。"]
+			dependencies: [
+				"5550A3E383EFEC90"
+				"3126DE83A6741671"
+				"4E85C8A2EEEB57C3"
+			]
+			id: "55F959A18E904D6C"
+			tasks: [
+				{
+					id: "54FEAD9C942788CF"
+					type: "item"
+					item: "kubejs:four"
+					consume_items: false
+				}
+				{
+					id: "3662CA8BEE33E02D"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			icon: "kubejs:five"
+			x: 1.5d
+			y: 11.5d
+			subtitle: "装置44-4"
+			description: ["3+2，6-1，8-3，...？总共有14个选项可用于计算五。你想如何做？"]
+			dependencies: [
+				"5550A3E383EFEC90"
+				"3126DE83A6741671"
+				"4E85C8A2EEEB57C3"
+			]
+			id: "7927B6162577FA7B"
+			tasks: [
+				{
+					id: "0B94D4B1C2A131DA"
+					type: "item"
+					item: "kubejs:five"
+					consume_items: false
+				}
+				{
+					id: "4963498277C8A578"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			icon: "kubejs:six"
+			x: 2.5d
+			y: 11.5d
+			subtitle: "装置44-5"
+			description: ["3x2，3+3，8-2，...？总共有16个选项可用于计算六。愿最好者获胜。"]
+			dependencies: [
+				"5550A3E383EFEC90"
+				"3126DE83A6741671"
+				"4E85C8A2EEEB57C3"
+			]
+			id: "1C6657984648B0D4"
+			tasks: [
+				{
+					id: "0127797E6B5249A2"
+					type: "item"
+					item: "kubejs:six"
+					consume_items: false
+				}
+				{
+					id: "3E69BC01E47532D1"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			icon: "kubejs:seven"
+			x: 3.5d
+			y: 11.5d
+			subtitle: "装置44-6"
+			description: ["9-2，4+3，8-1，...？总共有14个选项可用于计算七。感觉幸运吗？"]
+			dependencies: [
+				"5550A3E383EFEC90"
+				"3126DE83A6741671"
+				"4E85C8A2EEEB57C3"
+			]
+			id: "4A16CE3BC111280F"
+			tasks: [
+				{
+					id: "7FA25AD87CBD6B62"
+					type: "item"
+					item: "kubejs:seven"
+					consume_items: false
+				}
+				{
+					id: "44A10C4B490D3C62"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			icon: "kubejs:nine"
+			x: 4.5d
+			y: 11.5d
+			subtitle: "装置44-7"
+			description: ["3x3，4+5，8+1，...？总共有15个选项可用于计算九。选择权在你手中。"]
+			dependencies: [
+				"5550A3E383EFEC90"
+				"3126DE83A6741671"
+				"4E85C8A2EEEB57C3"
+			]
+			id: "7D808F15BEDD7A7B"
+			tasks: [
+				{
+					id: "2F81E83410906BB5"
+					type: "item"
+					item: "kubejs:nine"
+					consume_items: false
+				}
+				{
+					id: "5521427D5BAF2771"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			title: "再生垃圾箱"
+			icon: "appliedenergistics2:matter_ball"
+			x: 2.0d
+			y: 3.0d
+			subtitle: "装置47"
+			description: [
+				"火箭设备是用轻巧但坚固的物质 &a塑料&f 构建的。&a物质球&f 可以在 &a物质浓缩器&f 中创建。"
+				""
+				"首先，将一个&a1k-ME存储组件&f放入&a物质浓缩器&f中，设置为生产&a物质球&f，然后为其提供你能想到的最丰富的物品流。不要扔掉你的贵重物品；这些物品在过程中会被消耗。"
+			]
+			hide_dependency_lines: true
+			dependencies: ["5D0454F977C4F080"]
+			id: "3CBED6B591BCEDEA"
+			tasks: [
+				{
+					id: "245415CFAEFCA7ED"
+					type: "item"
+					item: "appliedenergistics2:matter_ball"
+					consume_items: false
+				}
+				{
+					id: "0811C927283EE155"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			title: "昂贵的砖块 II"
+			x: 2.0d
+			y: 4.5d
+			shape: "circle"
+			description: ["在超热压缩机中制造几根物质和&a塑料&f的棒。你将需要一些这样的棒。"]
+			dependencies: [
+				"6F750A66D0A559DE"
+				"3CBED6B591BCEDEA"
+			]
+			id: "6A156D11D983661D"
+			tasks: [
+				{
+					id: "25532A2369192051"
+					type: "item"
+					item: "kubejs:matter_plastics"
+					consume_items: false
+				}
+			]
+		}
+		{
+			title: "黑色黄金"
+			icon: "thermal:crude_oil_bucket"
+			x: -2.5d
+			y: 8.0d
+			shape: "circle"
+			description: ["为了给我们的火箭提供动力，我们将需要一些非常强效的燃料。在一些较温暖的生物群落中寻找&a石油&f的来源。你不会错过的。"]
+			hide_dependency_lines: true
+			dependencies: ["5D0454F977C4F080"]
+			id: "4761DAE59CDD93AF"
+			tasks: [
+				{
+					id: "69EE10F8CDFF7980"
+					type: "item"
+					title: "Any Crude Oil Bucket"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "kubejs:crude_oil_bucket"
+									Count: 1b
+								}
+								{
+									id: "thermal:crude_oil_bucket"
+									Count: 1b
+								}
+							]
+						}
+					}
+					consume_items: false
+				}
+			]
+		}
+		{
+			title: "碳氢分类器 I"
+			x: -1.0d
+			y: 8.0d
+			shape: "circle"
+			description: ["使用&a流体精炼机&f，可以将&a石油&f精炼成&a重油&f。"]
+			dependencies: ["4761DAE59CDD93AF"]
+			id: "2BD76CB3F8BC215E"
+			tasks: [
+				{
+					id: "0F12D5A3157F61C4"
+					type: "item"
+					item: "thermal:heavy_oil_bucket"
+					consume_items: false
+				}
+			]
+		}
+		{
+			title: "碳氢分类器 II"
+			x: -1.0d
+			y: 9.0d
+			shape: "circle"
+			description: ["将&a石油&f精炼成&a重油&f会产生一个副产品，&a轻油&f。"]
+			dependencies: ["4761DAE59CDD93AF"]
+			id: "26DD1CA6A8D4E249"
+			tasks: [
+				{
+					id: "2EA66D1B4EEBFA62"
+					type: "item"
+					item: "thermal:light_oil_bucket"
+					consume_items: false
+				}
+			]
+		}
+		{
+			title: "碳氢分类器 III"
+			x: 0.5d
+			y: 9.0d
+			shape: "circle"
+			subtitle: "构想 46"
+			description: ["&a重油&f和&a轻油&f都可以进一步精炼成合适的&a火箭燃料&f。"]
+			dependencies: [
+				"2BD76CB3F8BC215E"
+				"26DD1CA6A8D4E249"
+			]
+			dependency_requirement: "one_completed"
+			id: "25B76A897D97C9F1"
+			tasks: [
+				{
+					id: "5CAC7E6BDD460233"
+					type: "item"
+					item: "thermal:refined_fuel_bucket"
+					consume_items: false
+				}
+			]
+		}
+		{
+			title: "热量对待"
+			x: 3.5d
+			y: 3.5d
+			shape: "circle"
+			description: ["要制造物质和&a塑料&f，我们需要即使是最超频的&a殷钢&f机器也无法达到的温度。然而，你的小烈焰朋友将乐意交易……"]
+			hide_dependency_lines: true
+			dependencies: ["5D0454F977C4F080"]
+			id: "6F750A66D0A559DE"
+			tasks: [
+				{
+					id: "588732AF86BA6A8D"
+					type: "item"
+					item: "create:blaze_cake"
+					consume_items: false
+				}
+			]
+		}
+		{
+			title: "服饰"
+			icon: "advancedrocketry:spacehelmet"
+			x: -1.0d
+			y: 6.0d
+			shape: "circle"
+			description: ["如果你打算在着陆后生存，将需要一套特殊的盔甲。"]
+			dependencies: ["6A156D11D983661D"]
+			id: "6BA9A176EDA001A3"
+			tasks: [
+				{
+					id: "7E45D4E589606928"
+					type: "item"
+					item: "advancedrocketry:spacehelmet"
+					consume_items: false
+				}
+				{
+					id: "00E67717F76ABA56"
+					type: "item"
+					item: "advancedrocketry:spacechest"
+					consume_items: false
+				}
+				{
+					id: "3D1FB475F19FB099"
+					type: "item"
+					item: "advancedrocketry:spaceleggings"
+					consume_items: false
+				}
+				{
+					id: "29F72399D75E555C"
+					type: "item"
+					item: "advancedrocketry:spaceboots"
+					consume_items: false
+				}
+			]
+		}
+		{
+			title: "何去何从？"
+			x: 3.5d
+			y: 9.0d
+			shape: "circle"
+			description: ["为了让你的&a导航电脑&f知道它的目的地，必须插入一个&a星球ID芯片&f。"]
+			hide_dependency_lines: true
+			dependencies: ["5D0454F977C4F080"]
+			id: "462CE0A4C80442FB"
+			tasks: [
+				{
+					id: "4036EE2984EFEA1A"
+					type: "item"
+					item: {
+						id: "advancedrocketry:planet_id_chip"
+						Count: 1b
+						tag: {
+							dimId: "custommoon:moon"
+							DimensionName: " The Moon "
+						}
+					}
+					consume_items: false
+				}
+			]
+		}
+		{
+			title: "电解"
+			icon: "advancedrocketry:oxygencharger"
+			x: 0.5d
+			y: 6.0d
+			shape: "circle"
+			subtitle: "构想 48"
+			description: [
+				"为了填满你的&a氧气储罐&f，站在一个内部储存氧气的&a气体装填台&f上。"
+				""
+				"通过加热混合分离水，可以获得合适的氧气。"
+			]
+			dependencies: ["6A156D11D983661D"]
+			id: "3AD7553F3C8593F9"
+			tasks: [
+				{
+					id: "045DB251DB8BB97F"
+					type: "item"
+					item: "advancedrocketry:oxygencharger"
+					consume_items: false
+				}
+				{
+					id: "23140AC17E9BE946"
+					type: "item"
+					item: "advancedrocketry:bucketoxygen"
+					count: 4L
+					consume_items: false
+				}
+			]
+		}
+		{
+			title: "&a发射台&f 结构"
+			icon: "advancedrocketry:launchpad"
+			x: 2.0d
+			y: 6.0d
+			shape: "circle"
+			subtitle: "构想 49"
+			description: [
+				"为你的火箭准备&a发射台&f需要特殊的表面材料和结构加固。"
+				""
+				"为了了解具体的指南，请找到&a导航电脑&f的思考场景，或使用指令"
+				""
+				"&6/c ponder advancedrocketry:guidancecomputer"
+			]
+			dependencies: ["6A156D11D983661D"]
+			id: "4800892E1E70648D"
+			tasks: [
+				{
+					id: "1F86655043929A18"
+					type: "item"
+					item: "advancedrocketry:launchpad"
+					consume_items: false
+				}
+				{
+					id: "2BC9E126D403902B"
+					type: "item"
+					item: "advancedrocketry:structuretower"
+					consume_items: false
+				}
+				{
+					id: "3D2474BE8BAE28D1"
+					type: "item"
+					item: "advancedrocketry:rocketassembler"
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "6023AC8699FE1451"
+					type: "command"
+					title: "Open Ponder Scene"
+					icon: {
+						id: "occultism:book_of_calling_djinni_manage_machine"
+						Count: 1b
+						tag: {
+							spiritName: "Zedzeraeus"
+						}
+					}
+					team_reward: false
+					command: "/c ponder advancedrocketry:guidancecomputer"
+					player_command: true
+				}
+			]
+		}
+		{
+			title: "无管装载"
+			icon: "libvulpes:linker"
+			x: 5.0d
+			y: 6.0d
+			shape: "circle"
+			description: ["为了用燃料装载火箭，需要一些额外的小工具。有关用途，请参考&a导航电脑&f的思考场景。"]
+			dependencies: ["6A156D11D983661D"]
+			id: "1AE7B6CA4D1DBA6F"
+			tasks: [
+				{
+					id: "4D0D4FCDA84500F4"
+					type: "item"
+					item: "advancedrocketry:fuelingstation"
+					consume_items: false
+				}
+				{
+					id: "0CA84D5F0130C60E"
+					type: "item"
+					item: "libvulpes:linker"
+					consume_items: false
+				}
+			]
+		}
+		{
+			title: "运算符"
+			icon: "kubejs:plus"
+			x: 2.0d
+			y: 14.0d
+			subtitle: "构想 43-2"
+			description: ["如果没有运算符，数据中心将无法将数字组合成其他数字。为你的&a计算器&f提供任何所需的运算符的自动供应。"]
+			dependencies: ["70D563EF30E9CB97"]
+			id: "4E85C8A2EEEB57C3"
+			tasks: [
+				{
+					id: "69462AA912169E3B"
+					type: "item"
+					item: "kubejs:plus"
+					consume_items: false
+				}
+				{
+					id: "56E1C75AD6DF3119"
+					type: "item"
+					item: "kubejs:minus"
+					consume_items: false
+				}
+				{
+					id: "3BF3D9E9B3782EA3"
+					type: "item"
+					item: "kubejs:multiply"
+					consume_items: false
+				}
+				{
+					id: "5914CB0D1D6E839E"
+					type: "item"
+					item: "kubejs:divide"
+					consume_items: false
+				}
+				{
+					id: "26517C9D1C3D8269"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			title: "太空飞船"
+			icon: "advancedrocketry:fueltank"
+			x: 3.5d
+			y: 6.0d
+			shape: "circle"
+			subtitle: "构想 &b50"
+			description: [
+				"放置了&a发射台&f后，是时候建造你的太空飞船了。"
+				""
+				"尽力而为，毕竟这是你一直在努力工作的最终构想。"
+				"&7尽管也许保持调色板简单——因为模组的状态，看看能否避免在这里使用任何花哨的特殊渲染方块。现在坠毁将是毁灭性的。"
+			]
+			dependencies: [
+				"6A156D11D983661D"
+				"4800892E1E70648D"
+			]
+			id: "73473DC7269EC5B0"
+			tasks: [
+				{
+					id: "5A1CC7C1BAFFABBC"
+					type: "item"
+					item: "advancedrocketry:rocketmotor"
+					consume_items: false
+				}
+				{
+					id: "303C6C7B357D47D9"
+					type: "item"
+					item: "advancedrocketry:fueltank"
+					consume_items: false
+				}
+				{
+					id: "5140EF835413E2FC"
+					type: "item"
+					item: "advancedrocketry:seat"
+					consume_items: false
+				}
+			]
+		}
+	]
+}
