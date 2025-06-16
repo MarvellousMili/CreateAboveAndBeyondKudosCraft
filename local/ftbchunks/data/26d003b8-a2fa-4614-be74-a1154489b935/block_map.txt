@@ -6,6 +6,7 @@
 #0A1C64 create:andesite_belt_funnel
 #A4683B create:andesite_casing
 #DA9404 create:andesite_funnel
+#BE6CB6 create:andesite_tunnel
 #D31607 minecraft:andesite_wall
 #DBECBF minecraft:anvil
 #B2FA5E darkerdepths:aridrock
@@ -73,6 +74,7 @@
 #E2D601 minecraft:composter
 #AA7746 computercraft:computer_normal
 #3BEB0B farmersdelight:cooking_pot
+#62B857 create:copper_casing
 #6BB940 create:copper_ore
 #9924E7 occultism:copper_ore
 #6E5139 tconstruct:copper_ore
@@ -116,6 +118,7 @@
 #314645 tconstruct:earth_slime_leaves
 #A8B9C3 tconstruct:earth_vanilla_slime_grass
 #A2D681 forbidden_arcanus:edelwood_log
+#462EDF exoticbirds:egg_incubator
 #AE570F desolation:ember_block
 #4C963A minecraft:emerald_ore
 #548B83 create:encased_fan
@@ -172,6 +175,7 @@
 #EA63C2 lootr:lootr_chest
 #DE9468 minecraft:magma_block
 #0BFFE0 chisel:marble/raw
+#4F0350 create:mechanical_arm
 #EB48A2 create:mechanical_bearing
 #FB37C1 create:mechanical_crafter
 #6B454F create:mechanical_drill
@@ -230,6 +234,7 @@
 #81AE89 minecraft:polished_granite_stairs
 #AFAC0D minecraft:poppy
 #38F915 create:portable_storage_interface
+#E01AFA minecraft:potted_blue_orchid
 #C5DDD6 minecraft:potted_red_tulip
 #40BB61 minecraft:prismarine
 #A8C236 minecraft:prismarine_bricks
@@ -237,6 +242,7 @@
 #C0B171 minecraft:purple_bed
 #49FC02 chisel:quartz/braid
 #F0410F appliedenergistics2:quartz_ore
+#406ACE biomesoplenty:rainbow_birch_leaves
 #5A42E3 randomium:randomium_ore
 #025439 minecraft:red_mushroom
 #78AF47 minecraft:red_mushroom_block
@@ -273,6 +279,7 @@
 #C70547 tconstruct:seared_melter
 #2978EB extcaves:sedimentstone
 #D3CCFE create:shaft
+#764CDB occultism:silver_ore
 #5DBDF9 thermal:silver_ore
 #615192 tconstruct:sky_congealed_slime
 #789BE9 tconstruct:sky_earth_slime_grass
@@ -288,6 +295,7 @@
 #872D76 minecraft:snow
 #6B495B minecraft:spawner
 #FAC600 supplementaries:speaker_block
+#D7A655 create:spout
 #5E33FE minecraft:spruce_door
 #FAE367 minecraft:spruce_fence
 #13F5AC minecraft:spruce_leaves
@@ -322,6 +330,8 @@
 #F6A2B3 tconstruct:tinkers_chest
 #409C60 extcaves:treasure_pot
 #DF2551 extcaves:treasure_pot_long
+#6EC61D minecraft:tripwire
+#312A0B minecraft:tripwire_hook
 #88779D minecraft:vine
 #3DB9C4 supplementaries:wall_lantern
 #AAF4B7 create:water_wheel

@@ -4,6 +4,7 @@
 #35F cavebiomeapi:caves
 #53B desolation:charred_forest
 #4F9 minecraft:dark_forest
+#34D minecraft:deep_lukewarm_ocean
 #3DE minecraft:deep_ocean
 #674 minecraft:flower_forest
 #010 minecraft:forest

@@ -1,1 +1,22 @@
-{"bookGuiScale":0,"clickedVisualize":false,"bookData":{}}
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": true,
+  "bookData": {
+    "occultism:dictionary_of_spirits": {
+      "viewedEntries": [
+        "occultism:pentacles/craft_foliot",
+        "occultism:getting_started/first_ritual",
+        "occultism:rituals/crafting/craft_satchel",
+        "occultism:pentacles/overview"
+      ],
+      "bookmarks": [],
+      "history": [
+        "occultism:pentacles/craft_foliot",
+        "occultism:pentacles/overview",
+        "occultism:rituals/crafting/craft_satchel",
+        "occultism:getting_started/first_ritual"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}
