@@ -55,7 +55,7 @@
 			#Range configuration bottom offset.
 			bottomOffset = 5
 			#True to generate this ore.
-			generateOre = false
+			generateOre = true
 			#The count value for the decorator for this ore.
 			#Range: 0 ~ 127
 			count = 3

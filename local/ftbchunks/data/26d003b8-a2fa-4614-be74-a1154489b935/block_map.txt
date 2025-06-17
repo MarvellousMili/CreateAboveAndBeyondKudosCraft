@@ -1,4 +1,5 @@
 #942E52 minecraft:acacia_leaves
+#A78454 minecraft:acacia_log
 #E33188 create:adjustable_pulse_repeater
 #628822 create:adjustable_repeater
 #FBEB73 minecraft:allium
@@ -11,6 +12,7 @@
 #D31607 minecraft:andesite_wall
 #DBECBF minecraft:anvil
 #B2FA5E darkerdepths:aridrock
+#5934E6 darkerdepths:aridrock_iron_ore
 #3C5B5E desolation:ash_block
 #954494 desolation:ash_block_10
 #954496 desolation:ash_block_12
@@ -40,7 +42,9 @@
 #7F8A04 minecraft:blast_furnace
 #B14754 supplementaries:block_generator
 #45C81B minecraft:blue_orchid
+#F852DD minecraft:blue_terracotta
 #15C8D4 minecraft:bookshelf
+#8AE729 minecraft:brain_coral_block
 #6754E0 create:brass_belt_funnel
 #02FE08 create:brass_funnel
 #E6D6BA create:brass_tunnel
@@ -50,6 +54,8 @@
 #207534 minecraft:brown_mushroom
 #3AE802 minecraft:brown_mushroom_block
 #642081 minecraft:brown_terracotta
+#BA9FBF minecraft:bubble_coral_block
+#C6AC20 minecraft:cactus
 #FC842A minecraft:campfire
 #E0307E tconstruct:cast_chest
 #87E47E appliedenergistics2:charged_quartz_ore
@@ -66,6 +72,7 @@
 #671DB1 create:clutch
 #DE242D minecraft:coal_ore
 #FE4F0A minecraft:coarse_dirt
+#EDAEEE darkerdepths:cobbled_sandstone
 #714AA5 darkerdepths:cobbled_sandstone_slab
 #058353 minecraft:cobblestone
 #7331AC minecraft:cobblestone_slab
@@ -88,10 +95,12 @@
 #468304 minecraft:crafting_table
 #7DF6E7 create:crushing_wheel
 #E9A8F5 minecraft:crying_obsidian
+#3C3897 minecraft:cut_sandstone
 #1B74F2 farmersdelight:cutting_board
 #B2A2E1 minecraft:dandelion
 #AF03B5 minecraft:dark_oak_fence
 #EF031B minecraft:dark_oak_fence_gate
+#FA08CF storagedrawers:dark_oak_full_drawers_4
 #1CE973 storagedrawers:dark_oak_half_drawers_4
 #E3DF1E minecraft:dark_oak_leaves
 #A66708 minecraft:dark_oak_log
@@ -109,6 +118,7 @@
 #CB3012 thermal:device_nullifier
 #CB716A minecraft:diamond_ore
 #BED665 minecraft:diorite
+#1EA397 create:diorite_cobblestone
 #80497A minecraft:dirt
 #77CED9 extcaves:dirtstone
 #A83BE1 extcaves:dirtstone_cobble
@@ -129,6 +139,7 @@
 #2208EB minecraft:enchanting_table
 #009B14 minecraft:farmland
 #64DB80 fairylights:fastener
+#B9B269 minecraft:fire_coral_block
 #E7F264 minecraft:flower_pot
 #DC0D87 create:fluid_pipe
 #DDC0C3 create:fluid_tank
@@ -139,6 +150,7 @@
 #D60460 create:gearbox
 #F832D7 create:gearshift
 #2F436F minecraft:glass
+#91B285 moreminecarts:glass_cactus
 #AE162A create:glass_fluid_pipe
 #279E3E minecraft:glass_pane
 #482EEB minecraft:glowstone
@@ -155,6 +167,7 @@
 #87B5C3 create:hand_crank
 #F67E21 minecraft:hay_block
 #1A0827 minecraft:hopper
+#9D2636 minecraft:horn_coral_block
 #D5F5A3 create:hose_pulley
 #52D27E minecraft:ice
 #0575BD minecraft:infested_stone
@@ -212,7 +225,9 @@
 #855CF4 minecraft:oak_trapdoor
 #392E46 minecraft:oak_wood
 #4A5E4E minecraft:obsidian
+#2FFA1A thermal:oil_sand
 #509239 extcaves:oldstone
+#4A3089 minecraft:orange_terracotta
 #8F6314 minecraft:orange_tulip
 #56316C libvulpes:orealuminum
 #352A05 libvulpes:orecopper
@@ -256,6 +271,7 @@
 #5D17E5 minecraft:redstone_wall_torch
 #721B63 minecraft:redstone_wire
 #487B7B minecraft:repeater
+#F390DD farmersdelight:rich_soil
 #F997AA extcaves:rock_flint
 #2CB449 extcaves:rock_pebble_stone
 #7B4BC5 extcaves:rock_stalagmite_sedimentstone
@@ -270,6 +286,8 @@
 #FD568E rubber_duck:rubber_duck_block
 #86FC77 minecraft:sand
 #7E2654 minecraft:sandstone
+#9D474B minecraft:sandstone_slab
+#38B5DB minecraft:sandstone_stairs
 #705189 minecraft:sea_lantern
 #B74BCC tconstruct:seared_bricks
 #1B9E23 tconstruct:seared_channel
@@ -336,6 +354,7 @@
 #DF2551 extcaves:treasure_pot_long
 #6EC61D minecraft:tripwire
 #312A0B minecraft:tripwire_hook
+#2035B7 minecraft:tube_coral_block
 #88779D minecraft:vine
 #3DB9C4 supplementaries:wall_lantern
 #AAF4B7 create:water_wheel

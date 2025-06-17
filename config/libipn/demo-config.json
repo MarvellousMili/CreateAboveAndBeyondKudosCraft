@@ -1,0 +1,9 @@
+{
+    "Demo": {
+        "open_config_menu": {
+            "main": {
+                "keys": "I,P,N"
+            }
+        }
+    }
+}

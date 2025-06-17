@@ -6,6 +6,8 @@
 #4F9 minecraft:dark_forest
 #34D minecraft:deep_lukewarm_ocean
 #3DE minecraft:deep_ocean
+#008 minecraft:desert
+#19B minecraft:desert_hills
 #674 minecraft:flower_forest
 #010 minecraft:forest
 #3CE minecraft:gravelly_mountains
@@ -13,8 +15,10 @@
 #379 minecraft:mountains
 #4F1 minecraft:ocean
 #3DC minecraft:plains
+#778 endergetic:poise_forest
 #5FF minecraft:river
 #67B minecraft:savanna
+#706 minecraft:savanna_plateau
 #269 advancedrocketry:space
 #406 minecraft:stone_shore
 #774 minecraft:sunflower_plains
@@ -22,5 +26,6 @@
 #169 minecraft:taiga
 #63C minecraft:taiga_hills
 #7F0 minecraft:taiga_mountains
+#2B7 minecraft:warm_ocean
 #452 minecraft:wooded_hills
 #306 minecraft:wooded_mountains
