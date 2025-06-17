@@ -153,6 +153,7 @@
 #91B285 moreminecarts:glass_cactus
 #AE162A create:glass_fluid_pipe
 #279E3E minecraft:glass_pane
+#8AB3A0 supplementaries:globe
 #482EEB minecraft:glowstone
 #2C1BE1 minecraft:gold_block
 #B76A76 minecraft:gold_ore
@@ -255,12 +256,14 @@
 #38F915 create:portable_storage_interface
 #E01AFA minecraft:potted_blue_orchid
 #C5DDD6 minecraft:potted_red_tulip
+#867680 minecraft:powered_rail
 #40BB61 minecraft:prismarine
 #A8C236 minecraft:prismarine_bricks
 #E6B35B minecraft:pumpkin
 #C0B171 minecraft:purple_bed
 #49FC02 chisel:quartz/braid
 #F0410F appliedenergistics2:quartz_ore
+#868785 minecraft:rail
 #406ACE biomesoplenty:rainbow_birch_leaves
 #5A42E3 randomium:randomium_ore
 #025439 minecraft:red_mushroom

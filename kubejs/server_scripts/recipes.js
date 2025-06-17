@@ -455,6 +455,12 @@ function unwantedRecipes(event) {
 
 function tweaks(event) {
 
+	// 银锭替代配方
+	event.shapeless(TE('silver_ingot'), [CR('zinc_ingot'), TE('nickel_ingot')])
+
+	// 银粒替代配方 (9粒=1锭)
+	event.shapeless(TE('silver_nugget', 9), [TE('silver_ingot')])
+	
 	event.remove({ id: 'waterstrainer:string_mesh' })
 	event.remove({ id: 'waterstrainer:iron_mesh' })
 	event.remove({ id: 'waterstrainer:obsidian_mesh' })
