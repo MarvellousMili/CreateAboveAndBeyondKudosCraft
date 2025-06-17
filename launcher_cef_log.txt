@@ -1,9 +1,18 @@
-[50272:34040:0616/230452.637:WARNING:chrome_main_delegate.cc(748)] This is Chrome version 127.0.6533.120 (not a warning)
-[50272:30552:0616/230452.692:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
-[50272:34040:0616/230452.700:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
-[50272:34040:0616/230452.705:WARNING:browser_management_service.cc(128)] EnterpriseLogoUrl fetch failed with error code -1 and MIME type 
-[50272:34040:0616/230452.723:INFO:main_context.cpp(131)] CEF initialized successfully.
-[50272:34040:0616/230452.723:INFO:main_context.cpp(133)] CEF version: 127.3.5+g114ea2a+chromium-127.0.6533.120
-[50272:34040:0616/230452.787:WARNING:external_registry_loader_win.cc(232)] Error observing HKLM: 5
-[50272:34040:0616/230507.204:ERROR:device_event_log_impl.cc(196)] [23:05:07.204] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 找不到元素。 (0x490)
-[50272:34040:0617/010423.831:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
+[75856:11216:0617/161150.557:WARNING:chrome_main_delegate.cc(748)] This is Chrome version 127.0.6533.120 (not a warning)
+[75856:11216:0617/161150.579:ERROR:os_crypt_win.cc(98)] Failed to decrypt: Key not valid for use in specified state. (0x8009000B)
+[75856:41712:0617/161150.645:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
+[75856:11216:0617/161150.658:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[75856:11216:0617/161150.664:WARNING:browser_management_service.cc(128)] EnterpriseLogoUrl fetch failed with error code -1 and MIME type 
+[75856:31224:0617/161150.682:INFO:component_installer.cc(304)] Failed to read manifest for CRLSet (C:\Users\ext.mizhang\AppData\Roaming\.minecraft\webcache2\CertificateRevocation\9870).: The system cannot find the file specified. (0x2)
+[75856:11216:0617/161150.686:INFO:main_context.cpp(131)] CEF initialized successfully.
+[75856:11216:0617/161150.686:INFO:main_context.cpp(133)] CEF version: 127.3.5+g114ea2a+chromium-127.0.6533.120
+[75856:11216:0617/161150.745:WARNING:external_registry_loader_win.cc(232)] Error observing HKLM: 5
+[75856:31224:0617/161150.747:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\ext.mizhang\AppData\Roaming\.minecraft\webcache2\Default\shared_proto_db\metadata: IO error: C:\Users\ext.mizhang\AppData\Roaming\.minecraft\webcache2\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[75856:31224:0617/161150.751:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\ext.mizhang\AppData\Roaming\.minecraft\webcache2\Default\shared_proto_db\metadata: IO error: C:\Users\ext.mizhang\AppData\Roaming\.minecraft\webcache2\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[75856:31224:0617/161150.766:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\ext.mizhang\AppData\Roaming\.minecraft\webcache2\Default\shared_proto_db\metadata: IO error: C:\Users\ext.mizhang\AppData\Roaming\.minecraft\webcache2\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[75856:31224:0617/161150.771:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\ext.mizhang\AppData\Roaming\.minecraft\webcache2\Default\shared_proto_db\metadata: IO error: C:\Users\ext.mizhang\AppData\Roaming\.minecraft\webcache2\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[75856:11148:0617/161150.842:WARNING:value_store_frontend.cc(47)] Reading ahfgeienlihckogmohjhadlkjgocpleb.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[75856:11148:0617/161150.857:WARNING:value_store_frontend.cc(47)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[75856:24092:0617/161154.118:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\ext.mizhang\AppData\Roaming\.minecraft\webcache2\Default\GCM Store\Encryption: IO error: C:\Users\ext.mizhang\AppData\Roaming\.minecraft\webcache2\Default\GCM Store\Encryption/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[77332:55176:0617/161201.760:WARNING:backend_impl.cc(1543)] Messed up entry found.
+[75856:11216:0617/165536.177:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

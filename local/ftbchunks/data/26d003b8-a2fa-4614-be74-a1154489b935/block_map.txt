@@ -5,6 +5,7 @@
 #FA75A8 minecraft:andesite
 #0A1C64 create:andesite_belt_funnel
 #A4683B create:andesite_casing
+#2E765A create:andesite_cobblestone
 #DA9404 create:andesite_funnel
 #BE6CB6 create:andesite_tunnel
 #D31607 minecraft:andesite_wall
@@ -20,6 +21,7 @@
 #A61617 desolation:ash_block_8
 #2BF603 desolation:ashbramble
 #0F359D minecraft:azure_bluet
+#189B99 minecraft:barrel
 #E152BD create:basin
 #7F50F6 minecraft:bell
 #7C938F create:belt
@@ -64,6 +66,7 @@
 #671DB1 create:clutch
 #DE242D minecraft:coal_ore
 #FE4F0A minecraft:coarse_dirt
+#714AA5 darkerdepths:cobbled_sandstone_slab
 #058353 minecraft:cobblestone
 #7331AC minecraft:cobblestone_slab
 #3D8BFC minecraft:cobblestone_stairs
@@ -121,6 +124,7 @@
 #462EDF exoticbirds:egg_incubator
 #AE570F desolation:ember_block
 #4C963A minecraft:emerald_ore
+#A952FC create:encased_chain_drive
 #548B83 create:encased_fan
 #2208EB minecraft:enchanting_table
 #009B14 minecraft:farmland
@@ -338,8 +342,10 @@
 #E2C9D0 create:weighted_ejector
 #FB9BF5 minecraft:white_banner
 #B75CCB create:white_sail
+#B76ADF create:white_seat
 #1B60CF minecraft:white_tulip
 #79C917 create:windmill_bearing
 #EDCCAC fairylights:witch_light
 #4AF229 minecraft:yellow_bed
 #6137CB create:zinc_ore
+#B0344C minecraft:zombie_head
