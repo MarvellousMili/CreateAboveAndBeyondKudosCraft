@@ -302,6 +302,7 @@
 #39CA17 tconstruct:seared_heater
 #5ED1DC tconstruct:seared_ingot_tank
 #C70547 tconstruct:seared_melter
+#18A9AE tconstruct:seared_table
 #2978EB extcaves:sedimentstone
 #D3CCFE create:shaft
 #764CDB occultism:silver_ore
@@ -339,6 +340,7 @@
 #F8955F minecraft:stone_bricks
 #AB5BC7 minecraft:stone_slab
 #139B57 minecraft:stone_stairs
+#2E9337 minecraft:stonecutter
 #B81C38 farmersdelight:stove
 #9E51B2 create:stressometer
 #B851E0 minecraft:stripped_birch_log

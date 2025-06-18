@@ -1,5 +1,5 @@
-[00:09:27] [INFO ] Loaded script client_scripts:client.js in 0.003 s
-[00:09:27] [INFO ] Loaded script client_scripts:ponder.js in 0.007 s
-[00:09:27] [INFO ] Hello, World! (You will see this line every time client resources reload)
-[00:09:27] [INFO ] Loaded script client_scripts:script.js in 0.001 s
-[00:09:27] [INFO ] Loaded 3/3 KubeJS client scripts in 0.014 s
+[16:28:29] [INFO ] Loaded script client_scripts:client.js in 0.006 s
+[16:28:29] [INFO ] Loaded script client_scripts:ponder.js in 0.006 s
+[16:28:29] [INFO ] Hello, World! (You will see this line every time client resources reload)
+[16:28:29] [INFO ] Loaded script client_scripts:script.js in 0.001 s
+[16:28:29] [INFO ] Loaded 3/3 KubeJS client scripts in 0.017 s
