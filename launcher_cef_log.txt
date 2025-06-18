@@ -1,22 +1,10 @@
-[66516:54072:0618/162739.838:WARNING:chrome_main_delegate.cc(748)] This is Chrome version 127.0.6533.120 (not a warning)
-[66516:55008:0618/162739.928:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
-[66516:54072:0618/162739.941:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
-[66516:54072:0618/162739.946:WARNING:browser_management_service.cc(128)] EnterpriseLogoUrl fetch failed with error code -1 and MIME type 
-[66516:54072:0618/162739.966:INFO:main_context.cpp(131)] CEF initialized successfully.
-[66516:54072:0618/162739.966:INFO:main_context.cpp(133)] CEF version: 127.3.5+g114ea2a+chromium-127.0.6533.120
-[66516:54072:0618/162740.029:WARNING:external_registry_loader_win.cc(232)] Error observing HKLM: 5
-[66516:55008:0618/162740.031:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\ext.mizhang\AppData\Roaming\.minecraft\webcache2\Default\shared_proto_db\metadata: IO error: C:\Users\ext.mizhang\AppData\Roaming\.minecraft\webcache2\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[66516:55008:0618/162740.036:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\ext.mizhang\AppData\Roaming\.minecraft\webcache2\Default\shared_proto_db\metadata: IO error: C:\Users\ext.mizhang\AppData\Roaming\.minecraft\webcache2\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[66516:55008:0618/162740.042:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\ext.mizhang\AppData\Roaming\.minecraft\webcache2\Default\shared_proto_db\metadata: IO error: C:\Users\ext.mizhang\AppData\Roaming\.minecraft\webcache2\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[66516:55008:0618/162740.046:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\ext.mizhang\AppData\Roaming\.minecraft\webcache2\Default\shared_proto_db\metadata: IO error: C:\Users\ext.mizhang\AppData\Roaming\.minecraft\webcache2\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[66516:55008:0618/162740.094:WARNING:value_store_frontend.cc(47)] Reading ahfgeienlihckogmohjhadlkjgocpleb.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[66516:55008:0618/162740.098:WARNING:value_store_frontend.cc(47)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[66516:54072:0618/162740.652:INFO:CONSOLE(2)] "Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://mojang/launcher/static/media/fonts/NotoSans.0918cbc5.woff2", source: https://mojang/launcher/static/js/app.d0258c6f.bundle.js (2)
-[66516:54072:0618/162740.700:INFO:CONSOLE(0)] "Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://mojang/launcher/static/media/fonts/NotoSans-Bold.f5e091c7.woff2", source: https://mojang/launcher/index.html (0)
-[34072:24620:0618/162740.933:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
-[66516:68284:0618/162743.286:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\ext.mizhang\AppData\Roaming\.minecraft\webcache2\Default\GCM Store\Encryption: IO error: C:\Users\ext.mizhang\AppData\Roaming\.minecraft\webcache2\Default\GCM Store\Encryption/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[66516:54072:0618/162748.918:INFO:CONSOLE(2)] "Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://mojang/launcher/static/media/fonts/Minecraft-Seven_v2.25165468.woff2", source: https://mojang/launcher/static/js/app.d0258c6f.bundle.js (2)
-[66516:54072:0618/162759.970:WARNING:frame_host_impl.cc(623)] virtual CefFrameHostImpl::SendProcessMessage sent to detached frame 5-1053E2DF55552D0FB5D4F486840D0199 (main) will be ignored
-[45156:50356:0618/162800.619:ERROR:dns_config_service.cc(273)] DNS config watch failed.
-[66516:74604:0618/162800.619:ERROR:dns_config_service.cc(273)] DNS config watch failed.
-[66516:54072:0618/163246.610:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
+[59524:42100:0618/233226.511:WARNING:chrome_main_delegate.cc(748)] This is Chrome version 127.0.6533.120 (not a warning)
+[59524:61228:0618/233226.574:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
+[59524:42100:0618/233226.584:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[59524:42100:0618/233226.587:WARNING:browser_management_service.cc(128)] EnterpriseLogoUrl fetch failed with error code -1 and MIME type 
+[59524:42100:0618/233226.608:INFO:main_context.cpp(131)] CEF initialized successfully.
+[59524:42100:0618/233226.608:INFO:main_context.cpp(133)] CEF version: 127.3.5+g114ea2a+chromium-127.0.6533.120
+[59524:42100:0618/233226.656:WARNING:external_registry_loader_win.cc(232)] Error observing HKLM: 5
+[56792:19828:0618/233229.743:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+[59524:42100:0618/233234.591:ERROR:device_event_log_impl.cc(196)] [23:32:34.591] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 找不到元素。 (0x490)
+[59524:42100:0619/011154.523:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

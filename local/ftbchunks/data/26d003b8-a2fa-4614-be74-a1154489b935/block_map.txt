@@ -2,6 +2,7 @@
 #A78454 minecraft:acacia_log
 #E33188 create:adjustable_pulse_repeater
 #628822 create:adjustable_repeater
+#9799B0 architects_palette:algal_bricks
 #FBEB73 minecraft:allium
 #FA75A8 minecraft:andesite
 #0A1C64 create:andesite_belt_funnel
@@ -123,6 +124,7 @@
 #77CED9 extcaves:dirtstone
 #A83BE1 extcaves:dirtstone_cobble
 #B26FDF create:dolomite
+#19A3C1 minecraft:dropper
 #3B3ABB tconstruct:earth_congealed_slime
 #7CDED2 tconstruct:earth_earth_slime_grass
 #B44FE9 tconstruct:earth_sky_slime_grass
@@ -154,6 +156,7 @@
 #AE162A create:glass_fluid_pipe
 #279E3E minecraft:glass_pane
 #8AB3A0 supplementaries:globe
+#BEDA38 darkerdepths:glowshroom_block
 #482EEB minecraft:glowstone
 #2C1BE1 minecraft:gold_block
 #B76A76 minecraft:gold_ore
@@ -175,6 +178,7 @@
 #D7EADE minecraft:iron_ore
 #20FC50 create:item_drain
 #7E0D49 minecraft:jack_o_lantern
+#5FFFB9 minecraft:jukebox
 #6B68B5 minecraft:jungle_log
 #F7CC06 minecraft:jungle_planks
 #228015 minecraft:ladder
@@ -182,6 +186,7 @@
 #EA439B minecraft:lapis_ore
 #6C55C8 create:large_cogwheel
 #83CED3 minecraft:lava
+#BEB920 extcaves:lavastone
 #6BCAC8 thermal:lead_ore
 #72D77D minecraft:lever
 #7482E4 minecraft:lilac
@@ -198,6 +203,7 @@
 #FB37C1 create:mechanical_crafter
 #6B454F create:mechanical_drill
 #E638FD create:mechanical_mixer
+#F30757 create:mechanical_plough
 #145137 create:mechanical_press
 #65707C create:mechanical_pump
 #4F44DD create:mechanical_saw
@@ -224,6 +230,7 @@
 #374FD3 minecraft:oak_slab
 #72BC63 minecraft:oak_stairs
 #855CF4 minecraft:oak_trapdoor
+#46FB1F minecraft:oak_wall_sign
 #392E46 minecraft:oak_wood
 #4A5E4E minecraft:obsidian
 #2FFA1A thermal:oil_sand

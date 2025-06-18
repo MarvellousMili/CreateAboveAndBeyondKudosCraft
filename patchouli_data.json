@@ -7,11 +7,27 @@
         "occultism:pentacles/craft_foliot",
         "occultism:getting_started/first_ritual",
         "occultism:rituals/crafting/craft_satchel",
-        "occultism:pentacles/overview"
+        "occultism:pentacles/overview",
+        "occultism:rituals/crafting/craft_familiar_ring",
+        "occultism:rituals/familiars/familiar_beholder",
+        "occultism:rituals/familiars/familiar_shub_niggurath",
+        "occultism:rituals/familiars/familiar_chimera",
+        "occultism:rituals/familiars/familiar_headless_ratman",
+        "occultism:rituals/familiars/familiar_guardian",
+        "occultism:rituals/familiars/familiar_blacksmith",
+        "occultism:pentacles/craft_djinni"
       ],
       "bookmarks": [],
       "history": [
         "occultism:pentacles/craft_foliot",
+        "occultism:pentacles/craft_djinni",
+        "occultism:rituals/familiars/familiar_blacksmith",
+        "occultism:rituals/familiars/familiar_guardian",
+        "occultism:rituals/familiars/familiar_headless_ratman",
+        "occultism:rituals/familiars/familiar_chimera",
+        "occultism:rituals/familiars/familiar_shub_niggurath",
+        "occultism:rituals/familiars/familiar_beholder",
+        "occultism:rituals/crafting/craft_familiar_ring",
         "occultism:getting_started/first_ritual",
         "occultism:pentacles/overview",
         "occultism:rituals/crafting/craft_satchel"

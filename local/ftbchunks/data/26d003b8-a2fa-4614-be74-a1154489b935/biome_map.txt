@@ -8,6 +8,7 @@
 #3DE minecraft:deep_ocean
 #008 minecraft:desert
 #19B minecraft:desert_hills
+#00D minecraft:desert_lakes
 #674 minecraft:flower_forest
 #010 minecraft:forest
 #3CE minecraft:gravelly_mountains
