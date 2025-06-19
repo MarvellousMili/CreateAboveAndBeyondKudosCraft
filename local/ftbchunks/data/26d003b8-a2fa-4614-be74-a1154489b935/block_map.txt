@@ -4,6 +4,7 @@
 #628822 create:adjustable_repeater
 #9799B0 architects_palette:algal_bricks
 #FBEB73 minecraft:allium
+#6380D5 minecraft:ancient_debris
 #FA75A8 minecraft:andesite
 #0A1C64 create:andesite_belt_funnel
 #A4683B create:andesite_casing
@@ -25,7 +26,9 @@
 #2BF603 desolation:ashbramble
 #0F359D minecraft:azure_bluet
 #189B99 minecraft:barrel
+#18D108 minecraft:basalt
 #E152BD create:basin
+#840F59 minecraft:bedrock
 #7F50F6 minecraft:bell
 #7C938F create:belt
 #B0D3D0 minecraft:birch_door
@@ -40,8 +43,11 @@
 #B7985C minecraft:birch_slab
 #0306AC minecraft:birch_stairs
 #2C38FD minecraft:birch_trapdoor
+#C9CBB9 minecraft:blackstone
 #7F8A04 minecraft:blast_furnace
 #B14754 supplementaries:block_generator
+#0BDEA9 tconstruct:blood_ichor_slime_grass
+#525695 tconstruct:blood_slime_leaves
 #45C81B minecraft:blue_orchid
 #F852DD minecraft:blue_terracotta
 #15C8D4 minecraft:bookshelf
@@ -73,6 +79,7 @@
 #671DB1 create:clutch
 #DE242D minecraft:coal_ore
 #FE4F0A minecraft:coarse_dirt
+#AE7F93 tconstruct:cobalt_ore
 #EDAEEE darkerdepths:cobbled_sandstone
 #714AA5 darkerdepths:cobbled_sandstone_slab
 #058353 minecraft:cobblestone
@@ -94,6 +101,8 @@
 #306005 minecraft:cracked_stone_bricks
 #8C5E34 tconstruct:crafting_station
 #468304 minecraft:crafting_table
+#182273 minecraft:crimson_nylium
+#3F201C minecraft:crimson_stem
 #7DF6E7 create:crushing_wheel
 #E9A8F5 minecraft:crying_obsidian
 #3C3897 minecraft:cut_sandstone
@@ -174,6 +183,7 @@
 #9D2636 minecraft:horn_coral_block
 #D5F5A3 create:hose_pulley
 #52D27E minecraft:ice
+#749222 occultism:iesnium_ore_natural
 #0575BD minecraft:infested_stone
 #D7EADE minecraft:iron_ore
 #20FC50 create:item_drain
@@ -216,8 +226,11 @@
 #3E6643 minecraft:mushroom_stem
 #32C818 forbidden_arcanus:mysterywood_leaves
 #F42630 exoticbirds:nest
+#0EFBB2 minecraft:nether_brick_slab
+#939E0C minecraft:nether_bricks
 #5DD67D minecraft:nether_gold_ore
 #6D0978 minecraft:nether_quartz_ore
+#6B6354 minecraft:nether_wart_block
 #454322 minecraft:netherrack
 #CADBB6 thermal:nickel_ore
 #461AF2 thermal:niter_ore
@@ -293,6 +306,7 @@
 #62A3CD farmersdelight:rope
 #F7A42A create:rope_pulley
 #9C3ECB minecraft:rose_bush
+#E493B9 create:rotation_speed_controller
 #FD568E rubber_duck:rubber_duck_block
 #86FC77 minecraft:sand
 #7E2654 minecraft:sandstone
@@ -312,6 +326,7 @@
 #18A9AE tconstruct:seared_table
 #2978EB extcaves:sedimentstone
 #D3CCFE create:shaft
+#F68259 minecraft:shroomlight
 #764CDB occultism:silver_ore
 #5DBDF9 thermal:silver_ore
 #615192 tconstruct:sky_congealed_slime
@@ -326,6 +341,7 @@
 #31A081 minecraft:smithing_table
 #C2A0D6 minecraft:smoker
 #872D76 minecraft:snow
+#A67F43 minecraft:soul_sand
 #6B495B minecraft:spawner
 #FAC600 supplementaries:speaker_block
 #D7A655 create:spout
@@ -367,8 +383,12 @@
 #6EC61D minecraft:tripwire
 #312A0B minecraft:tripwire_hook
 #2035B7 minecraft:tube_coral_block
+#DA4418 minecraft:twisting_vines
 #88779D minecraft:vine
 #3DB9C4 supplementaries:wall_lantern
+#78332B minecraft:warped_nylium
+#5BFED4 minecraft:warped_stem
+#9D2725 minecraft:warped_wart_block
 #AAF4B7 create:water_wheel
 #E2C9D0 create:weighted_ejector
 #FB9BF5 minecraft:white_banner
