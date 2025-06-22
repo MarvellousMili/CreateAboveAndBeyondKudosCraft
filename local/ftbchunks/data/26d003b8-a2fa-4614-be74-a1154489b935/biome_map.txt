@@ -4,8 +4,10 @@
 #0D2 minecraft:birch_forest_hills
 #35F cavebiomeapi:caves
 #53B desolation:charred_forest
+#3D6 minecraft:cold_ocean
 #570 minecraft:crimson_forest
 #4F9 minecraft:dark_forest
+#705 minecraft:deep_frozen_ocean
 #34D minecraft:deep_lukewarm_ocean
 #3DE minecraft:deep_ocean
 #008 minecraft:desert
@@ -13,6 +15,7 @@
 #00D minecraft:desert_lakes
 #674 minecraft:flower_forest
 #010 minecraft:forest
+#292 minecraft:frozen_ocean
 #3CE minecraft:gravelly_mountains
 #79A minecraft:lukewarm_ocean
 #379 minecraft:mountains
@@ -23,6 +26,7 @@
 #5FF minecraft:river
 #67B minecraft:savanna
 #706 minecraft:savanna_plateau
+#721 minecraft:soul_sand_valley
 #269 advancedrocketry:space
 #406 minecraft:stone_shore
 #774 minecraft:sunflower_plains
