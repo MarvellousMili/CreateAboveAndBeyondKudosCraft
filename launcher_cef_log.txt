@@ -1,16 +1,13 @@
-[28936:42484:0623/171814.733:WARNING:chrome_main_delegate.cc(748)] This is Chrome version 127.0.6533.120 (not a warning)
-[28936:46992:0623/171814.820:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
-[28936:42484:0623/171814.833:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
-[28936:42484:0623/171814.839:WARNING:browser_management_service.cc(128)] EnterpriseLogoUrl fetch failed with error code -1 and MIME type 
-[28936:42484:0623/171814.873:INFO:main_context.cpp(131)] CEF initialized successfully.
-[28936:42484:0623/171814.873:INFO:main_context.cpp(133)] CEF version: 127.3.5+g114ea2a+chromium-127.0.6533.120
-[28936:42484:0623/171815.003:WARNING:external_registry_loader_win.cc(232)] Error observing HKLM: 5
-[28936:59544:0623/171815.006:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\ext.mizhang\AppData\Roaming\.minecraft\webcache2\Default\shared_proto_db\metadata: IO error: C:\Users\ext.mizhang\AppData\Roaming\.minecraft\webcache2\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[28936:59544:0623/171815.011:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\ext.mizhang\AppData\Roaming\.minecraft\webcache2\Default\shared_proto_db\metadata: IO error: C:\Users\ext.mizhang\AppData\Roaming\.minecraft\webcache2\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[28936:59544:0623/171815.015:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\ext.mizhang\AppData\Roaming\.minecraft\webcache2\Default\shared_proto_db\metadata: IO error: C:\Users\ext.mizhang\AppData\Roaming\.minecraft\webcache2\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[28936:59544:0623/171815.034:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\ext.mizhang\AppData\Roaming\.minecraft\webcache2\Default\shared_proto_db\metadata: IO error: C:\Users\ext.mizhang\AppData\Roaming\.minecraft\webcache2\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[28936:59544:0623/171815.088:WARNING:value_store_frontend.cc(47)] Reading ahfgeienlihckogmohjhadlkjgocpleb.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[28936:59544:0623/171815.092:WARNING:value_store_frontend.cc(47)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[15424:50296:0623/171816.018:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
-[28936:64792:0623/171818.352:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\ext.mizhang\AppData\Roaming\.minecraft\webcache2\Default\GCM Store\Encryption: IO error: C:\Users\ext.mizhang\AppData\Roaming\.minecraft\webcache2\Default\GCM Store\Encryption/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[28936:42484:0623/174132.772:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
+[64728:71644:0623/221304.274:WARNING:chrome_main_delegate.cc(748)] This is Chrome version 127.0.6533.120 (not a warning)
+[64728:71644:0623/221304.305:ERROR:os_crypt_win.cc(98)] Failed to decrypt: 该项不适于在指定状态下使用。 (0x8009000B)
+[64728:83832:0623/221304.340:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
+[64728:71644:0623/221304.350:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[64728:71644:0623/221304.354:WARNING:browser_management_service.cc(128)] EnterpriseLogoUrl fetch failed with error code -1 and MIME type 
+[64728:71644:0623/221304.379:INFO:main_context.cpp(131)] CEF initialized successfully.
+[64728:71644:0623/221304.379:INFO:main_context.cpp(133)] CEF version: 127.3.5+g114ea2a+chromium-127.0.6533.120
+[64728:71644:0623/221304.457:WARNING:external_registry_loader_win.cc(232)] Error observing HKLM: 5
+[31288:23732:0623/221307.818:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+[64728:71644:0623/221327.811:ERROR:device_event_log_impl.cc(196)] [22:13:27.810] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 找不到元素。 (0x490)
+[64728:71644:0623/221340.870:WARNING:frame_host_impl.cc(623)] virtual CefFrameHostImpl::SendProcessMessage sent to detached frame 5-2D0EA2F800EB530F3A10FF7B65EF5756 (main) will be ignored
+[64728:71644:0623/221835.159:ERROR:device_event_log_impl.cc(196)] [22:18:35.159] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 找不到元素。 (0x490)
+[64728:71644:0624/014959.590:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

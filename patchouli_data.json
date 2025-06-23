@@ -95,19 +95,19 @@
       ],
       "bookmarks": [],
       "history": [
+        "occultism:rituals/familiars/familiar_cthulhu",
+        "occultism:rituals/familiars/familiar_guardian",
+        "occultism:rituals/familiars/familiars",
         "occultism:rituals/familiars/familiar_otherworld_bird",
         "occultism:pentacles/possess_djinni",
         "occultism:rituals/familiars/familiar_parrot",
-        "occultism:getting_started/first_ritual",
         "occultism:pentacles/possess_foliot",
-        "occultism:rituals/sacrifice",
-        "occultism:rituals/familiars/familiars",
-        "occultism:rituals/summoning/summon_wild_parrot",
-        "occultism:rituals/familiars/familiar_guardian",
-        "occultism:rituals/familiars/familiar_chimera",
-        "occultism:rituals/familiars/familiar_deer",
-        "occultism:rituals/familiars/familiar_greedy",
-        "occultism:rituals/familiars/familiar_headless_ratman"
+        "occultism:storage/autocrafting",
+        "occultism:rituals/summoning/summon_manage_machine",
+        "occultism:storage/storage_controller",
+        "occultism:rituals/crafting/craft_dimensional_matrix",
+        "occultism:storage/storage_stabilizer",
+        "occultism:storage/storage_remote"
       ],
       "completedManualQuests": []
     }

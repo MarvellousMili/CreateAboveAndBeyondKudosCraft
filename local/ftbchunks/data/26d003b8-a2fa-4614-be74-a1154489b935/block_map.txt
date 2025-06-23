@@ -137,6 +137,7 @@
 #2D68D6 minecraft:dead_bush
 #5E5E58 create:deployer
 #FF48B8 create:depot
+#7C145E minecraft:detector_rail
 #CB3012 thermal:device_nullifier
 #CB716A minecraft:diamond_ore
 #BED665 minecraft:diorite
@@ -372,6 +373,7 @@
 #96931C tconstruct:sky_slime_vine
 #A8EBE6 appliedenergistics2:sky_stone_block
 #B50E5A appliedenergistics2:sky_stone_chest
+#846C49 minecraft:slime_block
 #9FF19F tconstruct:smeltery_controller
 #31A081 minecraft:smithing_table
 #C2A0D6 minecraft:smoker
@@ -396,6 +398,7 @@
 #66D6FD minecraft:spruce_wood
 #38351E forbidden_arcanus:stella_arcanum
 #375A43 supplementaries:stick
+#753082 minecraft:sticky_piston
 #DC3458 minecraft:stone
 #B21185 minecraft:stone_brick_slab
 #43D995 minecraft:stone_brick_stairs
