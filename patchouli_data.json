@@ -96,18 +96,18 @@
       "bookmarks": [],
       "history": [
         "occultism:rituals/familiars/familiar_otherworld_bird",
+        "occultism:pentacles/possess_djinni",
+        "occultism:rituals/familiars/familiar_parrot",
+        "occultism:getting_started/first_ritual",
+        "occultism:pentacles/possess_foliot",
+        "occultism:rituals/sacrifice",
+        "occultism:rituals/familiars/familiars",
+        "occultism:rituals/summoning/summon_wild_parrot",
+        "occultism:rituals/familiars/familiar_guardian",
         "occultism:rituals/familiars/familiar_chimera",
         "occultism:rituals/familiars/familiar_deer",
         "occultism:rituals/familiars/familiar_greedy",
-        "occultism:rituals/familiars/familiar_parrot",
-        "occultism:rituals/familiars/familiars",
-        "occultism:rituals/familiars/familiar_guardian",
-        "occultism:rituals/familiars/familiar_headless_ratman",
-        "occultism:rituals/familiars/familiar_shub_niggurath",
-        "occultism:pentacles/possess_djinni",
-        "occultism:rituals/familiars/familiar_beholder",
-        "occultism:pentacles/summon_afrit",
-        "occultism:pentacles/craft_djinni"
+        "occultism:rituals/familiars/familiar_headless_ratman"
       ],
       "completedManualQuests": []
     }
