@@ -16,3 +16,4 @@
 [59004:63136:0624/103138.476:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\ext.mizhang\AppData\Roaming\.minecraft\webcache2\Default\GCM Store\Encryption: IO error: C:\Users\ext.mizhang\AppData\Roaming\.minecraft\webcache2\Default\GCM Store\Encryption/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
 [59004:55752:0624/125900.892:ERROR:dns_config_service.cc(273)] DNS config watch failed.
 [75500:31624:0624/125900.892:ERROR:dns_config_service.cc(273)] DNS config watch failed.
+[59004:3036:0624/154955.216:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
