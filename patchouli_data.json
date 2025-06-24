@@ -95,19 +95,19 @@
       ],
       "bookmarks": [],
       "history": [
-        "occultism:rituals/familiars/familiar_cthulhu",
-        "occultism:rituals/familiars/familiar_guardian",
-        "occultism:rituals/familiars/familiars",
-        "occultism:rituals/familiars/familiar_otherworld_bird",
-        "occultism:pentacles/possess_djinni",
-        "occultism:rituals/familiars/familiar_parrot",
+        "occultism:rituals/familiars/familiar_blacksmith",
         "occultism:pentacles/possess_foliot",
-        "occultism:storage/autocrafting",
-        "occultism:rituals/summoning/summon_manage_machine",
-        "occultism:storage/storage_controller",
-        "occultism:rituals/crafting/craft_dimensional_matrix",
-        "occultism:storage/storage_stabilizer",
-        "occultism:storage/storage_remote"
+        "occultism:rituals/overview",
+        "occultism:pentacles/chalks",
+        "occultism:rituals/crafting/craft_miner_spirits",
+        "occultism:rituals/crafting/craft_dimensional_mineshaft",
+        "occultism:rituals/summoning/wither_skull",
+        "occultism:rituals/crafting/craft_soul_gem",
+        "occultism:pentacles/craft_djinni",
+        "occultism:rituals/sacrifice",
+        "occultism:rituals/item_use",
+        "occultism:rituals/crafting/craft_storage_controller_base",
+        "occultism:rituals/familiars/familiar_headless_ratman"
       ],
       "completedManualQuests": []
     }

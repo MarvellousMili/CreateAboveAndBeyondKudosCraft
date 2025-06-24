@@ -122,6 +122,7 @@
 #3C3897 minecraft:cut_sandstone
 #1B74F2 farmersdelight:cutting_board
 #B2A2E1 minecraft:dandelion
+#9DD1F0 minecraft:dark_oak_door
 #AF03B5 minecraft:dark_oak_fence
 #EF031B minecraft:dark_oak_fence_gate
 #FA08CF storagedrawers:dark_oak_full_drawers_4
@@ -405,6 +406,8 @@
 #31A081 minecraft:smithing_table
 #C2A0D6 minecraft:smoker
 #E05640 minecraft:smooth_quartz_slab
+#13D503 minecraft:smooth_sandstone
+#046DFC minecraft:smooth_sandstone_slab
 #CB82F8 minecraft:smooth_stone_slab
 #872D76 minecraft:snow
 #A0B4F5 minecraft:soul_fire
@@ -431,6 +434,7 @@
 #43D995 minecraft:stone_brick_stairs
 #B3BB15 minecraft:stone_brick_wall
 #F8955F minecraft:stone_bricks
+#7D07A9 minecraft:stone_pressure_plate
 #AB5BC7 minecraft:stone_slab
 #139B57 minecraft:stone_stairs
 #2E9337 minecraft:stonecutter
