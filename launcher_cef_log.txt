@@ -1,11 +1,10 @@
-[27880:50792:0624/203939.307:WARNING:chrome_main_delegate.cc(748)] This is Chrome version 127.0.6533.120 (not a warning)
-[27880:50792:0624/203939.344:ERROR:os_crypt_win.cc(98)] Failed to decrypt: 该项不适于在指定状态下使用。 (0x8009000B)
-[27880:8048:0624/203939.385:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
-[27880:50792:0624/203939.395:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
-[27880:50792:0624/203939.400:WARNING:browser_management_service.cc(128)] EnterpriseLogoUrl fetch failed with error code -1 and MIME type 
-[27880:50792:0624/203939.427:INFO:main_context.cpp(131)] CEF initialized successfully.
-[27880:50792:0624/203939.427:INFO:main_context.cpp(133)] CEF version: 127.3.5+g114ea2a+chromium-127.0.6533.120
-[27880:50792:0624/203939.487:WARNING:external_registry_loader_win.cc(232)] Error observing HKLM: 5
-[57288:83600:0624/203945.704:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
-[27880:50792:0624/203948.045:ERROR:device_event_log_impl.cc(196)] [20:39:48.044] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 找不到元素。 (0x490)
-[27880:50792:0625/012720.589:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
+[29036:42920:0626/001914.735:WARNING:chrome_main_delegate.cc(748)] This is Chrome version 127.0.6533.120 (not a warning)
+[29036:10512:0626/001914.776:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
+[29036:42920:0626/001914.785:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[29036:42920:0626/001914.789:WARNING:browser_management_service.cc(128)] EnterpriseLogoUrl fetch failed with error code -1 and MIME type 
+[29036:42920:0626/001914.800:INFO:main_context.cpp(131)] CEF initialized successfully.
+[29036:42920:0626/001914.800:INFO:main_context.cpp(133)] CEF version: 127.3.5+g114ea2a+chromium-127.0.6533.120
+[29036:42920:0626/001914.841:WARNING:external_registry_loader_win.cc(232)] Error observing HKLM: 5
+[26748:4488:0626/001916.653:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+[29036:42920:0626/001919.072:ERROR:device_event_log_impl.cc(196)] [00:19:19.073] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 找不到元素。 (0x490)
+[29036:42920:0626/003203.490:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

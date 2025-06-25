@@ -207,6 +207,7 @@
 #2C1BE1 minecraft:gold_block
 #B76A76 minecraft:gold_ore
 #060B35 minecraft:granite
+#AD2067 create:granite_cobblestone
 #B0C1DA minecraft:granite_stairs
 #3F84B7 minecraft:grass_block
 #C23901 minecraft:grass_path
@@ -402,6 +403,7 @@
 #A8EBE6 appliedenergistics2:sky_stone_block
 #B50E5A appliedenergistics2:sky_stone_chest
 #846C49 minecraft:slime_block
+#975FAF create:smart_chute
 #9FF19F tconstruct:smeltery_controller
 #31A081 minecraft:smithing_table
 #C2A0D6 minecraft:smoker

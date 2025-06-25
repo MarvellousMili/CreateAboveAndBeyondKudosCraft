@@ -95,6 +95,7 @@
       ],
       "bookmarks": [],
       "history": [
+        "occultism:getting_started/divination",
         "occultism:rituals/familiars/familiar_blacksmith",
         "occultism:pentacles/possess_foliot",
         "occultism:rituals/overview",
@@ -106,8 +107,7 @@
         "occultism:pentacles/craft_djinni",
         "occultism:rituals/sacrifice",
         "occultism:rituals/item_use",
-        "occultism:rituals/crafting/craft_storage_controller_base",
-        "occultism:rituals/familiars/familiar_headless_ratman"
+        "occultism:rituals/crafting/craft_storage_controller_base"
       ],
       "completedManualQuests": []
     }
