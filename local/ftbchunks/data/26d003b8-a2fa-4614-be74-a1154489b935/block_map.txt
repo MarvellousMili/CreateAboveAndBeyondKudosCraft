@@ -101,6 +101,7 @@
 #F888C9 minecraft:comparator
 #E2D601 minecraft:composter
 #AA7746 computercraft:computer_normal
+#54C660 create:content_observer
 #3BEB0B farmersdelight:cooking_pot
 #62B857 create:copper_casing
 #6BB940 create:copper_ore
@@ -122,6 +123,7 @@
 #3C3897 minecraft:cut_sandstone
 #1B74F2 farmersdelight:cutting_board
 #B2A2E1 minecraft:dandelion
+#5BADC0 xkdeco:dark_fish_bowl
 #9DD1F0 minecraft:dark_oak_door
 #AF03B5 minecraft:dark_oak_fence
 #EF031B minecraft:dark_oak_fence_gate
@@ -271,6 +273,7 @@
 #09BD60 cb_multipart:multipart
 #3E6643 minecraft:mushroom_stem
 #32C818 forbidden_arcanus:mysterywood_leaves
+#C6E4D6 aquaculture:neptunes_bounty
 #F42630 exoticbirds:nest
 #91453F minecraft:nether_brick_fence
 #0EFBB2 minecraft:nether_brick_slab

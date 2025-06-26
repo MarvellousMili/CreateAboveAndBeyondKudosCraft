@@ -95,19 +95,19 @@
       ],
       "bookmarks": [],
       "history": [
-        "occultism:rituals/familiars/familiar_devil",
-        "occultism:rituals/familiars/familiar_dragon",
-        "occultism:getting_started/divination",
-        "occultism:rituals/familiars/familiar_blacksmith",
-        "occultism:pentacles/possess_foliot",
-        "occultism:rituals/overview",
-        "occultism:pentacles/chalks",
+        "occultism:rituals/summoning/summon_cleaner",
+        "occultism:rituals/summoning/summon_transport_items",
+        "occultism:pentacles/summon_foliot",
         "occultism:rituals/crafting/craft_miner_spirits",
-        "occultism:rituals/crafting/craft_dimensional_mineshaft",
-        "occultism:rituals/summoning/wither_skull",
-        "occultism:rituals/crafting/craft_soul_gem",
         "occultism:pentacles/craft_djinni",
-        "occultism:rituals/sacrifice"
+        "occultism:rituals/summoning/summon_manage_machine",
+        "occultism:spirits/books_of_calling",
+        "occultism:misc/iesnium",
+        "occultism:rituals/crafting/craft_dimensional_mineshaft",
+        "occultism:rituals/familiars/familiar_devil",
+        "occultism:pentacles/possess_djinni",
+        "occultism:rituals/familiars/familiar_otherworld_bird",
+        "occultism:rituals/familiars/familiar_parrot"
       ],
       "completedManualQuests": []
     }

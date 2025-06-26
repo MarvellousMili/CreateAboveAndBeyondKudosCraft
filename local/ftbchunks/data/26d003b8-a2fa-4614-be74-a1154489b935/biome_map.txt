@@ -7,6 +7,7 @@
 #3D6 minecraft:cold_ocean
 #570 minecraft:crimson_forest
 #4F9 minecraft:dark_forest
+#5CC minecraft:dark_forest_hills
 #705 minecraft:deep_frozen_ocean
 #34D minecraft:deep_lukewarm_ocean
 #3DE minecraft:deep_ocean
@@ -34,6 +35,7 @@
 #169 minecraft:taiga
 #63C minecraft:taiga_hills
 #7F0 minecraft:taiga_mountains
+#2D1 minecraft:tall_birch_forest
 #2B7 minecraft:warm_ocean
 #628 minecraft:warped_forest
 #452 minecraft:wooded_hills
