@@ -95,6 +95,8 @@
       ],
       "bookmarks": [],
       "history": [
+        "occultism:rituals/familiars/familiar_devil",
+        "occultism:rituals/familiars/familiar_dragon",
         "occultism:getting_started/divination",
         "occultism:rituals/familiars/familiar_blacksmith",
         "occultism:pentacles/possess_foliot",
@@ -105,9 +107,7 @@
         "occultism:rituals/summoning/wither_skull",
         "occultism:rituals/crafting/craft_soul_gem",
         "occultism:pentacles/craft_djinni",
-        "occultism:rituals/sacrifice",
-        "occultism:rituals/item_use",
-        "occultism:rituals/crafting/craft_storage_controller_base"
+        "occultism:rituals/sacrifice"
       ],
       "completedManualQuests": []
     }

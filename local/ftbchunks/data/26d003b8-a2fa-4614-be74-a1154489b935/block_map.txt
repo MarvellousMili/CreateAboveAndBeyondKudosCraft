@@ -311,6 +311,7 @@
 #B75237 minecraft:packed_ice
 #BB6DCC tconstruct:part_builder
 #B9C232 tconstruct:part_chest
+#37259A xreliquary:pedestals/white_pedestal
 #AB1C58 minecraft:peony
 #8063D2 forbidden_arcanus:petrified_root
 #08BE2B minecraft:pink_bed
