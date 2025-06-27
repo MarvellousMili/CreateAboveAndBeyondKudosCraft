@@ -252,6 +252,7 @@
 #179590 create:linear_chassis
 #EA63C2 lootr:lootr_chest
 #E81594 thermal:machine_press
+#CA0751 thermal:machine_smelter
 #DE9468 minecraft:magma_block
 #16E42F tconstruct:magma_fluid
 #0BFFE0 chisel:marble/raw

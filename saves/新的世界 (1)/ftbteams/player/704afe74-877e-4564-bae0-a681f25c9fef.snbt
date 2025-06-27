@@ -1,0 +1,19 @@
+{
+	id: "704afe74-877e-4564-bae0-a681f25c9fef"
+	type: "player"
+	player_name: "Mili6454"
+	ranks: {
+		704afe74-877e-4564-bae0-a681f25c9fef: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Mili6454"
+		"ftbteams:color": "#FF8F59"
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+		"ftbchunks:allow_fake_players": 1b
+	}
+	message_history: [ ]
+	extra: { }
+}

@@ -1,0 +1,23 @@
+{
+	version: 1
+	uuid: "704afe74877e4564bae0a681f25c9fef"
+	name: "Mili6454"
+	can_edit: false
+	lock: false
+	auto_pin: false
+	task_progress: {
+		7F88BABEC9889C76: 1
+	}
+	started: {
+		75FB28B253B14876: 1751007319767L
+		0000000000000001: 1751007319767L
+		1F9517DCFB1DB297: 1751007319767L
+		7F88BABEC9889C76: 1751007319767L
+	}
+	completed: {
+		75FB28B253B14876: 1751007319767L
+		7F88BABEC9889C76: 1751007319767L
+	}
+	claimed_rewards: { }
+	pinned_quests: [ ]
+}
