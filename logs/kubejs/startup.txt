@@ -1,5 +1,5 @@
-[15:12:02] [INFO ] Loaded script startup_scripts:launch.js in 0.19 s
-[15:12:02] [INFO ] Hello, World! (You will only see this line once in console, during startup)
-[15:12:02] [INFO ] Loaded script startup_scripts:script.js in 0.002 s
-[15:12:02] [INFO ] Loaded script startup_scripts:trading.js in 0.018 s
-[15:12:02] [INFO ] Loaded 3/3 KubeJS startup scripts in 0.935 s
+[21:50:06] [INFO ] Loaded script startup_scripts:launch.js in 0.101 s
+[21:50:06] [INFO ] Hello, World! (You will only see this line once in console, during startup)
+[21:50:06] [INFO ] Loaded script startup_scripts:script.js in 0.005 s
+[21:50:06] [INFO ] Loaded script startup_scripts:trading.js in 0.023 s
+[21:50:06] [INFO ] Loaded 3/3 KubeJS startup scripts in 0.651 s

@@ -251,7 +251,11 @@
 #F100D3 chisel:limestone/raw
 #179590 create:linear_chassis
 #EA63C2 lootr:lootr_chest
+#165822 thermal:machine_chiller
+#B3761E thermal:machine_crafter
+#474B72 thermal:machine_insolator
 #E81594 thermal:machine_press
+#4701B5 thermal:machine_refinery
 #CA0751 thermal:machine_smelter
 #DE9468 minecraft:magma_block
 #16E42F tconstruct:magma_fluid
@@ -357,6 +361,7 @@
 #50F8F2 xkdeco:red_roof_steep
 #AE0C44 xkdeco:red_roof_steep_side
 #465F37 minecraft:red_tulip
+#6A5D69 create:redstone_link
 #62B28A minecraft:redstone_ore
 #24BE64 minecraft:redstone_torch
 #5D17E5 minecraft:redstone_wall_torch
