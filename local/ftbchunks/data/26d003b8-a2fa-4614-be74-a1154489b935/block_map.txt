@@ -9,6 +9,7 @@
 #0A1C64 create:andesite_belt_funnel
 #A4683B create:andesite_casing
 #2E765A create:andesite_cobblestone
+#6E9D87 create:andesite_cobblestone_slab
 #DA9404 create:andesite_funnel
 #BE6CB6 create:andesite_tunnel
 #D31607 minecraft:andesite_wall

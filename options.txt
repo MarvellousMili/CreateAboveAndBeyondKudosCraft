@@ -117,10 +117,10 @@ key_key.rocket.desc:key.mouse.left
 key_key.slide.desc:key.keyboard.left.shift
 key_placebo.toggleWings:key.keyboard.keypad.8
 key_placebo.toggleTrails:key.keyboard.keypad.9
-key_Start composing:key.keyboard.g
-key_Tool Menu (Hold):key.keyboard.left.alt
 key_Piston Pushcart Up:key.keyboard.space
 key_Piston Pushcart Down:key.keyboard.left.control
+key_Start composing:key.keyboard.g
+key_Tool Menu (Hold):key.keyboard.left.alt
 key_key.corpse.death_history:key.keyboard.u
 key_Open the Crash Utilities Screen:key.keyboard.u:CONTROL
 key_Copy Container Class:key.keyboard.unknown
@@ -132,9 +132,9 @@ key_Options Gui:key.keyboard.i
 key_key.curios.open.desc:key.keyboard.g
 key_key.ftbquests.quests:key.keyboard.t
 key_key.control:key.keyboard.left.control
-key_key.inventorysorter.itemin:key.mouse.100
-key_key.inventorysorter.sort:key.mouse.middle
 key_key.inventorysorter.itemout:key.mouse.102
+key_key.inventorysorter.sort:key.mouse.middle
+key_key.inventorysorter.itemin:key.mouse.100
 key_key.toggle_focus.desc:key.keyboard.tab
 key_key.cofh.mode_change_increment:key.keyboard.v
 key_key.endergetic.booflo_vest:key.keyboard.space

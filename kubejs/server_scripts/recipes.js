@@ -377,10 +377,10 @@ function unwantedRecipes(event) {
 	event.remove({ id: "grapplemod:rockethook" })
 	event.remove({ id: "randomium:duplicate" })
 	event.remove({ id: "forbidden_arcanus:eternal_stella" })
-	event.remove({ id: OC('miner/ores/redstone_ore') })
-	event.remove({ id: OC('miner/ores/aluminum_ore') })
-	event.remove({ id: OC('miner/ores/tin_ore') })
-	event.remove({ id: OC('miner/ores/silver_ore') })
+	//event.remove({ id: OC('miner/ores/redstone_ore') })
+	//event.remove({ id: OC('miner/ores/aluminum_ore') })
+	//event.remove({ id: OC('miner/ores/tin_ore') })
+	//event.remove({ id: OC('miner/ores/silver_ore') })
 	event.remove({ id: MC('diorite') })
 	event.remove({ id: MC('andesite') })
 	event.remove({ id: MC('granite') })
@@ -445,11 +445,11 @@ function unwantedRecipes(event) {
 	event.remove({ id: 'ravencoffee:sandwich_beef' })
 	event.remove({ id: 'ravencoffee:sandwich_chicken' })
 
-	native_metals.forEach(e => {
-		event.remove({ type: MC("smelting"), input: F("#dusts/" + e) })
-		event.remove({ type: MC("blasting"), input: F("#dusts/" + e) })
-		event.remove({ type: TC("melting"), input: F("#dusts/" + e) })
-	})
+	//native_metals.forEach(e => {
+	//	event.remove({ type: MC("smelting"), input: F("#dusts/" + e) })
+	//	event.remove({ type: MC("blasting"), input: F("#dusts/" + e) })
+	//	event.remove({ type: TC("melting"), input: F("#dusts/" + e) })
+	//})
 
 }
 
@@ -460,6 +460,10 @@ function tweaks(event) {
 
 	// 银粒替代配方 (9粒=1锭)
 	event.shapeless(TE('silver_nugget', 9), [TE('silver_ingot')])
+
+	// 恢复银矿石的熔炉/高炉冶炼配方
+    event.smelting(TE('silver_ingot'), '#forge:ores/silver').xp(0.7);
+    event.blasting(TE('silver_ingot'), '#forge:ores/silver').xp(0.7);
 	
 	event.remove({ id: 'waterstrainer:string_mesh' })
 	event.remove({ id: 'waterstrainer:iron_mesh' })
@@ -1379,6 +1383,16 @@ function oreProcessing(event) {
 	let aridrock = Item.of("darkerdepths:aridrock", 1).withChance(.5)
 	let otherstone = Item.of(OC("otherstone"), 1).withChance(.5)
 
+	// 银矿石粉碎配方
+    event.recipes.createCrushing(
+        [
+            Item.of(TE('silver_nugget'), 8), // 8银粒
+            Item.of(TE('nickel_nugget')).withChance(0.25), // 25%镍粒
+            Item.of(MC('stone')).withChance(0.3) // 30%石头（替代圆石）
+        ],
+        '#forge:ores/silver'
+    ).processingTime(220);
+
 	event.remove({ input: "darkerdepths:aridrock_gold_ore" })
 	event.remove({ input: "darkerdepths:aridrock_iron_ore" })
 	event.remove({ input: "darkerdepths:limestone_gold_ore" })
@@ -1388,8 +1402,9 @@ function oreProcessing(event) {
 	event.recipes.createCrushing([Item.of("forbidden_arcanus:xpetrified_orb", 2), Item.of("forbidden_arcanus:xpetrified_orb", 1).withChance(.25), stone], "forbidden_arcanus:xpetrified_ore")
 	event.recipes.createCrushing([Item.of("buddycards:luminis_crystal", 2), Item.of("buddycards:luminis_crystal", 1).withChance(.25), stone], "buddycards:luminis_ore")
 	event.recipes.createCrushing([Item.of("forbidden_arcanus:arcane_crystal", 2), Item.of("forbidden_arcanus:arcane_crystal_dust", 1).withChance(.25), stone], "forbidden_arcanus:arcane_crystal_ore")
-	event.recipes.createCrushing([Item.of(OC("iesnium_dust"), 2), Item.of(OC("iesnium_dust"), 1).withChance(.25), otherstone], OC("iesnium_ore"))
-	event.recipes.createCrushing([Item.of(TE("sapphire"), 2), Item.of(TE("sapphire"), 1).withChance(.25), stone], TE("sapphire_ore"))
+	event.recipes.createCrushing([Item.of(OC("iesnium_dust"), 20), Item.of(OC("iesnium_dust"), 10).withChance(.50), otherstone], OC("iesnium_ore"))
+    event.recipes.createCrushing([Item.of(OC("iesnium_dust"), 10), Item.of(OC("iesnium_dust"), 5).withChance(.50), otherstone], MC("netherrack"))
+    event.recipes.createCrushing([Item.of(TE("sapphire"), 2), Item.of(TE("sapphire"), 1).withChance(.25), stone], TE("sapphire_ore"))
 	event.recipes.createCrushing([Item.of(TE("ruby"), 2), Item.of(TE("ruby"), 1).withChance(.25), stone], TE("ruby_ore"))
 	event.recipes.createCrushing([Item.of(MC("diamond"), 2), Item.of(MC("diamond"), 1).withChance(.25), limestone], "darkerdepths:limestone_diamond_ore")
 	event.recipes.createCrushing([Item.of(MC("diamond"), 2), Item.of(MC("diamond"), 1).withChance(.25), aridrock], "darkerdepths:aridrock_diamond_ore")
